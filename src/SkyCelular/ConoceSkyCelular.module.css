@@ -1,0 +1,204 @@
+.p-conoce{
+  padding-left: 1%;
+}
+
+.container {
+  padding-bottom: 50px;
+  padding-left:50px; 
+}
+.spectrum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 40px;
+  
+    /* Spectrum */
+  
+    background: linear-gradient(
+      90deg,
+      #ff9e00 0%,
+      #ff0000 33.93%,
+      #b5007d 58.36%,
+      #21429c 82.54%,
+      #0071ff 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .p-tb-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .colPadding{
+    padding-bottom: 0px;
+  }
+
+  .backgroundCard {
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #fafafa 0%, #fafafa 100%), #fff;
+    margin:0;
+    height:100%;
+    border:0;
+  }
+
+  .titleCard {
+    color: #292929;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    word-wrap: break-word;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+  }
+
+
+  .bodyCard {
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .titleMain {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+  }
+
+  .textoSecundario{
+    font-size: 24px;
+    line-height: 32px;
+    width: 45%;
+    text-align: center;
+  }
+
+  .alineaTextoSecundario{
+    display: flex;
+    justify-content: center;
+  }
+
+  /************************
+  Inicia seccion responsiva
+  *************************/
+
+
+  @media only screen and (max-width: 1720px) {
+
+
+    .textoSecundario{
+        width: 48%;
+
+    }
+
+
+  }
+  @media only screen and (max-width: 1614px) {
+
+
+    .textoSecundario{
+        width: 50%;
+
+    }
+
+
+  }
+
+  @media only screen and (max-width: 1552px) {
+
+
+    .textoSecundario{
+        width: 54%;
+
+    }
+
+
+  }
+
+  @media only screen and (max-width: 1441px) {
+
+
+    .textoSecundario{
+        width: 60%;
+
+    }
+
+
+  }
+
+  @media only screen and (max-width: 1300px) {
+
+
+    .textoSecundario{
+        width: 65%;
+
+    }
+
+
+  }
+
+  
+  @media only screen and (max-width: 1201px) {
+
+
+    .textoSecundario{
+        width: 80%;
+
+    }
+
+
+  }
+
+    
+  @media only screen and (max-width: 1095px) {
+
+
+    .textoSecundario{
+        width: 90%;
+
+    }
+
+
+  }
+
+
+  @media only screen and (max-width: 991px) {
+    .spectrum{
+        font-size: 28px;
+    }
+
+    .titleMain{
+        font-size: 30px;
+    }
+
+    .textoSecundario{
+        width: 70%;
+        font-size: 18px;
+        line-height: 24.55px;
+    }
+
+    .colPadding{
+      margin-bottom: 20px;
+    }
+  }
+
+
+  @media only screen and (max-width: 575px) {
+  .container {
+    
+    padding-left:10px !important; 
+  }
+
+  .p-conoce{
+    padding-left: 8%;
+  }
+}

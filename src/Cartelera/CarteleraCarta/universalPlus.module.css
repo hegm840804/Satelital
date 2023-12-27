@@ -1,0 +1,82 @@
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(
+    90deg,
+    #ff9e00 0%,
+    #ff0000 33.93%,
+    #b5007d 58.36%,
+    #21429c 82.54%,
+    #0071ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title {
+  padding-top: 5px;
+  font-size: 18px;
+  color: #6e6e6e;
+  line-height: 30px;
+}
+
+
+.headerRow {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subheaderRow {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.imagen {
+width: 1100px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.tituloazul {
+  font-size: 24px;
+  color: #000FBE;
+  margin-left: 170px;
+}
+
+.tituloazul2 {
+  font-size: 24px;
+  color: #000FBE;
+  font-weight: bold;
+  margin-left: 900px;
+}
+
+.tituloazul3 {
+  font-size: 18px;
+  color: #000FBE;
+}
+
+.texto {
+  width: 1050px;
+  text-align: justify;
+  margin-left: 170px;
+  margin-top: 10px;
+}
+
+.botonazul {
+  width: 200px;
+  height: 40px;
+
+  /* BOTON PRIMARIO MY SKY */
+
+  background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+  border-radius: 6px;
+}

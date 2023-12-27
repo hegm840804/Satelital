@@ -1,0 +1,352 @@
+.contenedor {
+  margin-top: 1.5vw;
+}
+
+
+
+.alignCenterCenterColumn {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(90deg,
+      #ff9e00 0%,
+      #ff0000 33.93%,
+      #b5007d 58.36%,
+      #21429c 82.54%,
+      #0071ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title {
+  padding-top: 5px;
+  font-size: 18px;
+  color: #6e6e6e;
+  line-height: 30px;
+}
+
+
+.headerRow {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subheaderRow {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.imagen {
+  border-radius: 20px;
+  height: 250px;
+}
+
+.tituloazul {
+  font-size: 24px;
+  color: #000FBE;
+}
+
+.tituloazul2 {
+  font-size: 24px;
+  color: #000FBE;
+  font-weight: bold;
+
+}
+
+.tituloazul3 {
+  font-size: 18px;
+  color: #000FBE;
+}
+
+.botonazul {
+  width: 100%;
+  height: 40px;
+
+  /* BOTON PRIMARIO MY SKY */
+
+  background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+  border-radius: 6px;
+
+}
+
+.cardBody {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.contenedorModal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+
+.contenedorModalConfirmacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+
+.titulo {
+  font-size: 32px;
+  color: #6E6E6E;
+  text-align: center;
+}
+
+.descripcion {
+  font-size: 14px;
+  color: #6E6E6E;
+  text-align: left;
+  padding: 0 2vw 0 2vw;
+}
+
+.descripcionModalConfirmacion {
+  font-size: 14px;
+  color: #6E6E6E;
+  text-align: center;
+  padding: 0 2vw 0 2vw;
+}
+
+.boton {
+  padding: 2em auto;
+  background-image: linear-gradient(-1deg, transparent 49%,
+      rgba(255, 255, 255, 0.25)50%,
+      rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+  color: rgb(255, 255, 255);
+  width: 10vw;
+  margin: auto;
+}
+
+.botonModalConfirmacion {
+  padding: 2em auto;
+  background-image: linear-gradient(-1deg, transparent 49%,
+      rgba(255, 255, 255, 0.25)50%,
+      rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  margin: auto;
+}
+
+.price {
+  margin-top: -10px;
+}
+
+.imagenSmall {
+  width: 124px;
+  height: 124px;
+  border-radius: 10px;
+}
+
+.tituloSmall {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 900;
+}
+
+.tituloSmallShort {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.tituloSmallPrice {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.tituloSmallMonth {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.cardHeightSmall>div>div>div {
+  height: 300px;
+}
+
+.cardHeightSmall>div>div>div>div {
+  height: 100%;
+}
+
+.cardHeightSmall>div>div>div>div>div {
+  height: 100%;
+}
+
+.cardHeightSmall>div>div>div>div>div>div {
+  height: 100%;
+}
+
+.cardSmallContainer {
+  width: 9rem;
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.info {
+  color: #6E6E6E;
+  text-align: left;
+  font-size: 16px;
+  line-height: 110%;
+}
+
+.alineaFlecha {
+  display: flex;
+  justify-content: end;
+  padding-top: 3vw;
+}
+
+.rota {
+  rotate: 180deg;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.noRota {
+  rotate: 0deg;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.contenedorItemSmall {
+  padding-left: 0px;
+}
+
+.cardImgSmall {
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  margin-bottom: 3vw;
+  cursor: pointer;
+}
+
+.contenedorImgSmall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgSmall {
+  width: 64px;
+  height: 64px;
+}
+
+.precioCard {
+  color: #000FBE;
+  font-size: 18px;
+  margin-top: 0.5vw;
+  margin-bottom: 0px;
+
+}
+
+.allday {
+  color: #000FBE;
+  font-size: 14px;
+}
+
+.botonCancelarSmall {
+  width: 10vw;
+  background: white;
+  border-radius: 6px;
+  margin-bottom: 1vw;
+  color: #000fbe;
+  border: none;
+  font-weight: bold;
+}
+
+.botonCancelarSmall:hover {
+  width: 10vw;
+  background: white;
+  border-radius: 6px;
+  margin-bottom: 1vw;
+  color: #000fbe;
+  border: none;
+  font-weight: bold;
+}
+
+.centrarCondiciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+.centrarCondiciones>div {
+  width: 100%;
+}
+
+.botonSmall {
+  padding: 2em auto;
+  background-image: linear-gradient(-1deg, transparent 49%,
+      rgba(255, 255, 255, 0.25)50%,
+      rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+  color: rgb(255, 255, 255);
+  width: 30%;
+  margin: auto;
+}
+
+/*******************************
+Inicia seccion para responsivo
+********************************/
+
+@media screen and (max-width: 576px) {
+  .cardSmall {
+    margin-bottom: 1.5vw;
+    cursor: pointer;
+  }
+
+  .cardBody {
+    padding: 2vw 2vw 2vw 2vw;
+  }
+
+  .botonModalConfirmacion {
+    width: 100%;
+  }
+
+  .boton {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .cardSmall {
+    margin-bottom: 1.5vw;
+    cursor: pointer;
+  }
+
+  .cardBody {
+    padding: 2vw 2vw 2vw 2vw;
+  }
+
+  .botonModalConfirmacion {
+    width: 100%;
+  }
+
+  .boton {
+    width: 100%;
+  }
+}

@@ -1,0 +1,80 @@
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    .logo {
+        padding-top: 21px;
+        padding-left: 122px;
+        margin-bottom: 21px;
+    }
+
+    .button {
+        color: rgb(255, 255, 255) !important;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        width: 143px !important;
+        height: 38px;
+        background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+        border-radius: 6px;
+        margin-top: 21px;
+        margin-bottom: 21px;
+        margin-left: 30px;
+        margin-right: 122px;
+        width: fit-content;
+        font-family: skyFont;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttonCol {
+        display: flex;
+        justify-content: right;
+    }
+
+    .spectrumLine {
+        height: 3px;
+        left: 0px;
+        top: 662px;
+        background: linear-gradient(90deg, #FF9E00 16.83%, #FF0000 37.82%, #B5007D 58.79%, #21429C 74.78%, #0071FF 84.38%);
+        align-items: center !important;
+    }
+
+    .menuButton, .closeButton {
+        display: none;
+    }
+
+    .smallSuperiorBarMenu {
+        position: absolute;
+        width: 103%;
+    }
+
+    @media screen and (min-width: 1px) {
+        .menuButton {
+            display: flex;
+            height: 100%;
+            z-index: 1;
+            margin-right: 15px;
+        }
+
+        .closeButton {
+            display: none;
+            height: 100%;
+            z-index: 1;
+            margin-right: 15px;
+
+        }
+
+        .logo {
+            padding-left: 7vw !important;
+        }
+    }
+
+
+    @media screen and (min-width: 576px) {
+        .menuButton, .closeButton {
+            display: none;
+        }
+    }

@@ -1,0 +1,305 @@
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(90deg,
+      #ff9e00 0%,
+      #ff0000 33.93%,
+      #b5007d 58.36%,
+      #21429c 82.54%,
+      #0071ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.headerRow {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.subtitle {
+  padding-top: 5px;
+  font-size: 18px;
+  color: #6e6e6e;
+  line-height: 30px;
+}
+
+.tabContainer {
+  margin-top: 30px;
+}
+
+.divTabs,
+.divTabs button {
+  font-size: 16px;
+  font-family: "skyFontBold";
+  font-style: normal;
+  text-align: center;
+  color: rgba(123, 123, 123, 1);
+  justify-content: center;
+  border: 0px;
+}
+
+.divTabsActive,
+.divTabsActive button {
+  font-size: 16px;
+  font-family: "skyFontBold";
+  font-style: normal;
+  text-align: center;
+  color: #6e6e6e !important;
+  border-top: 0px solid white !important;
+  border-left: 0px solid white !important;
+  border-right: 0px solid white !important;
+  border-bottom: 0px solid white !important;
+  text-align: center;
+  background:
+    /* gradient can be an image */
+    linear-gradient(to right,
+      rgba(255, 158, 0, 1) 0.99%,
+      rgba(255, 0, 0, 1) 31.37%,
+      rgba(181, 0, 125, 1) 61.71%,
+      rgba(33, 66, 156, 1) 84.85%,
+      rgba(0, 113, 255, 1) 98.74%) left bottom #fff no-repeat !important;
+  background-size: 100% 3px !important;
+  /* if linear-gradient, we need to resize it */
+  font-weight: 700;
+}
+
+.tabVideo {
+  margin-right: 20px;
+}
+
+.titulo {
+  margin-bottom: 0px;
+}
+
+.contenedorInferior {
+  margin-bottom: 5vw;
+}
+
+.imagen {
+  border-radius: 20px;
+}
+
+.cardBody {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.tituloazul {
+  font-size: 24px;
+  color: #000fbe;
+}
+
+.tituloazul2 {
+  font-size: 24px;
+  color: #000fbe;
+  font-weight: bold;
+}
+
+.tituloazul3 {
+  font-size: 18px;
+  color: #000fbe;
+}
+
+.botonazul {
+  width: 100%;
+  height: 40px;
+
+  /* BOTON PRIMARIO MY SKY */
+
+  background: linear-gradient(180deg,
+      #000fbe 0%,
+      #3d3de0 50%,
+      #000fbe 57.81%,
+      #000fbe 100%);
+  border-radius: 6px;
+}
+
+.rota {
+  rotate: 180deg;
+  transition: 0.5s;
+}
+
+.noRota {
+  rotate: 0deg;
+  transition: 0.5s;
+}
+
+.headerRowSmall1 {
+  padding-top: 0px;
+  padding-left: 0px;
+  margin-top: 20px;
+}
+
+.subHeaderTextSmall {
+  margin-bottom: 6vw;
+  margin-top: 6vw;
+  font-size: 22px;
+  padding: 0 8.66vw 0 8.66vw;
+}
+
+.subHeaderTextSmallContainer {
+  margin: 0;
+  padding: 0;
+}
+
+/****************************
+  Inicia seccion de responsivo
+  ****************************/
+@media screen and (max-width: 425px) {
+
+  .headerRow {
+    padding-top: 20px;
+    padding-left: 5px;
+  }
+
+  .headerRowSmall1 {
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+
+  .spectrum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+
+    /* Spectrum */
+
+    background: linear-gradient(90deg,
+        #ff9e00 30%,
+        #ff0000 60%,
+        #b5007d 100%,
+        #21429c 100%,
+        #0071ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .subHeaderTextSmall {
+    margin-bottom: 6vw;
+    margin-top: 6vw;
+    font-size: 22px;
+  }
+
+  .titulo {
+    margin-left: 10px;
+  }
+
+  .subtitle {
+    padding-top: 5px;
+    font-size: 18px;
+    color: #6e6e6e;
+    margin-left: 10px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .headerRow {
+    padding-top: 20px;
+    padding-left: 5px;
+  }
+
+  .headerRowSmall1 {
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+
+  .spectrum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+
+    /* Spectrum */
+
+    background: linear-gradient(90deg,
+        #ff9e00 30%,
+        #ff0000 60%,
+        #b5007d 100%,
+        #21429c 100%,
+        #0071ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .subHeaderTextSmall {
+    margin-bottom: 6vw;
+    margin-top: 6vw;
+    font-size: 20px;
+  }
+
+  .titulo {
+    margin-left: 10px;
+  }
+
+  .subtitle {
+    padding-top: 5px;
+    font-size: 18px;
+    color: #6e6e6e;
+    margin-left: 10px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .headerRow {
+    padding-top: 20px;
+    padding-left: 5px;
+  }
+
+  .headerRowSmall1 {
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+
+  .spectrum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+
+    /* Spectrum */
+
+    background: linear-gradient(90deg,
+        #ff9e00 30%,
+        #ff0000 60%,
+        #b5007d 100%,
+        #21429c 100%,
+        #0071ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .subHeaderTextSmall {
+    margin-bottom: 6vw;
+    margin-top: 6vw;
+    font-size: 20px;
+  }
+
+  .titulo {
+    margin-left: 12px;
+  }
+
+  .subtitle {
+    padding-top: 5px;
+    font-size: 18px;
+    color: #6e6e6e;
+    margin-left: 12px;
+    line-height: 30px;
+  }
+}

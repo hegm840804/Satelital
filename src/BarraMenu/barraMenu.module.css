@@ -1,0 +1,427 @@
+/*Modal*/
+div.fade.in.modal {
+    display: flex !important;
+}
+
+.modal-dialog {
+    margin: auto;
+}
+
+.contenedorModal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.descripcion {
+    font-size: 16px;
+    color: #6E6E6E;
+}
+
+.tituloModal {
+    font-size: 32px;
+
+}
+
+.botonModal {
+    padding: 2em auto;
+
+    background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: 16px !important;
+    margin: auto;
+}
+
+.botonCancelarModal {
+    padding: 2em auto;
+    background-color: rgb(255, 255, 255);
+    color: #000FBE;
+    width: 50%;
+    margin: auto;
+    font-size: 16px !important;
+    border: 0px;
+}
+
+.botonCancelarModal:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000FBE;
+}
+
+.info {
+    font-size: 24px;
+    color: #6E6E6E;
+    text-align: center;
+}
+
+.whatsappButton {
+    color: rgb(255, 255, 255) !important;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    width: 90%;
+    height: 38px;
+    background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+    border-radius: 6px;
+    margin-top: 10px;
+    font-family: skyFont;
+    display: flex;
+    justify-content: center;
+}
+
+.chatButton {
+    color: #000FBE;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    width: 90%;
+    height: 38px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 21px;
+    font-family: skyFont;
+    display: flex;
+    justify-content: center;
+}
+
+.chatButton:hover {
+
+    color: #000FBE;
+    background: #FFFFFF;
+
+}
+
+.chatButton:active {
+
+    color: #000FBE !important;
+    background: #FFFFFF !important;
+
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    font-weight: 700 !important;
+}
+
+.botonOut {
+    color: #000FBE !important;
+    background: #FFFFFF !important;
+    border: none;
+}
+
+.logoOut {
+    padding-right: 5px;
+}
+
+.dudasText {
+    color: #6E6E6E;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: skyFont;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.comunicateText {
+    color: #6E6E6E;
+    display: flex;
+    justify-content: center;
+    font-family: skyFont;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.menuContainer {
+    background: #FBFBFB;
+    max-width: 255px;
+}
+
+.comunicateContainer {
+    background: #FBFBFB;
+    margin-top: 50px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu>a:hover {
+    background-color: #F0F0F0 !important;
+}
+
+
+.submenu>a {
+    font-weight: 700;
+}
+
+.menu>a {
+    font-weight: 700;
+}
+
+ul>li>a>span>span[class^="css-"] {
+    width: 12px !important;
+    height: 12px !important;
+    rotate: 90deg !important;
+}
+
+ul>li>a>span>span[open] {
+    width: 12px !important;
+    height: 12px !important;
+    rotate: 180deg !important;
+}
+
+ul>li>a[class^="ps-menu-button ps-open"] {
+    background-color: #F0F0F0 !important;
+}
+
+.iconMarginWhatsapp {
+    margin-right: 5px;
+    width: 20px;
+}
+
+.iconMarginCall {
+    margin-right: 5px;
+}
+
+.mirror {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.fuentewatts {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+
+    .contenedorModal {
+        width: 100%;
+
+    }
+
+    .descripcion {
+        font-size: calc(16px *0.8);
+    }
+
+    .tituloModal {
+        font-size: calc(32px*0.8);
+
+    }
+
+    .botonModal {
+
+        font-size: calc(16px*0.8) !important;
+
+    }
+
+
+
+
+
+    .botonCancelarModal {
+        font-size: calc(16px*0.8) !important;
+
+    }
+
+
+    .info {
+        font-size: calc(24px*0.8);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tituloModal {
+        font-size: 24px;
+    }
+
+    .descripcion {
+        font-size: 14px;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .botonModal {
+        height: 40px;
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .tituloModal {
+        font-size: 24px;
+    }
+
+    .descripcion {
+        font-size: 14px;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .botonModal {
+        height: 40px;
+        font-size: 16px;
+        padding: 2em auto !important;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .tituloModal {
+        font-size: 24px;
+    }
+
+    .descripcion {
+        font-size: 14px;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .botonModal {
+        height: 40px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:327px) {
+    .descripcion {
+        font-size: calc(14px*0.7) !important;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .tituloModal {
+        font-size: calc(24px*0.7) !important;
+    }
+
+    .botonModal {
+        height: 32px;
+        font-size: calc(16px*0.7) !important;
+        width: 100%;
+    }
+
+    .botonCancelarModal {
+        font-size: calc(16px*0.7) !important;
+
+    }
+
+
+    .info {
+        font-size: calc(24px*0.3);
+    }
+}
+
+@media screen and (min-width: 1px) {
+    .menuContainer {
+        display: none;
+        margin-top: 4px;
+        width: 100% !important;
+        background-color: transparent !important;
+        border-left: 0px solid transparent !important;
+        border-right: 0px solid transparent !important;
+        max-width: 1000px;
+    }
+
+    .comunicateContainer {
+        background-color: #FFFFFF;
+    }
+
+    ul>li>a {
+        background-color: #FFFFFF;
+    }
+
+    nav>ul>li {
+        border-bottom: solid 1px hsl(0, 0%, 91%);
+    }
+
+    ul>li>div>ul>li>a {
+        border: solid 0px #F0F0F0;
+    }
+
+    ul>li>div>ul>li {
+        border: solid 0px #F0F0F0;
+    }
+
+    ul>li>div>ul {
+        border: solid 0px #F0F0F0;
+    }
+
+    .container>aside>div {
+        width: 100%;
+        height: 1000px;
+        background-color: #FBFBFB;
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+    .menuContainer {
+        display: flex;
+        max-width: 255px;
+    }
+
+    .comunicateContainer {
+        background-color: #FBFBFB;
+    }
+
+    ul>li>a {
+        background-color: #FBFBFB;
+    }
+
+    nav>ul>li {
+        border-bottom: solid 0px #E8E8E8;
+    }
+
+    ul>li>div>ul>li {
+        border: solid 0px #F0F0F0 !important;
+    }
+
+    .whatsappButton,
+    .chatButton {
+        width: 193px;
+    }
+}
+
+
+@media (min-width: 319px) and (max-width: 336px) {
+
+    .contenedor {
+        padding: 0vw 6vw 2vw 6vw;
+    }
+
+    .separacionCard {
+        margin-bottom: 4vw;
+    }
+
+    .titulo {
+        font-size: 6.66vw;
+        margin-top: 3.5vw;
+    }
+
+    .tituloIzq {
+        font-size: 6.66vw;
+        margin-top: 3.5vw;
+    }
+
+    .info {
+        font-size: 5vw;
+    }
+
+    .boton {
+        font-size: 4.44vw;
+        width: 100%;
+        margin-bottom: 4vw;
+    }
+}

@@ -1,0 +1,86 @@
+/*------------------------*/
+
+.progressbar {
+  height: 8px;
+  width: 20%;
+  background-image: linear-gradient(to right,
+      #ff9e00,
+      #ff0000,
+      #b5007d,
+      #21429c,
+      #0071ff,
+      #ffd900);
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10001;
+}
+
+.progressInfinite .progressbar {
+  width: 100%;
+  background-image: linear-gradient(to right,
+      #ff9e00,
+      #ff0000,
+      #b5007d,
+      #21429c,
+      #0071ff,
+      #ffd900);
+  animation: colorAnimation 1s infinite;
+  position: fixed;
+  right: 0;
+  z-index: 10001;
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-image: linear-gradient(to right,
+        #ff9e00,
+        #ff0000,
+        #b5007d,
+        #21429c,
+        #0071ff,
+        #ffd900);
+  }
+
+  20% {
+    background-image: linear-gradient(to right,
+        #ffd900,
+        #ff9e00,
+        #ff0000,
+        #b5007d,
+        #21429c,
+        #0071ff);
+  }
+
+  40% {
+    background-image: linear-gradient(to right,
+        #0071ff,
+        #ffd900,
+        #ff9e00,
+        #ff0000,
+        #b5007d,
+        #21429c);
+  }
+
+  60% {
+    background-image: linear-gradient(to right,
+        #21429c,
+        #0071ff,
+        #ffd900,
+        #ff9e00,
+        #ff0000,
+        #b5007d);
+  }
+
+  100% {
+    background-image: linear-gradient(to right,
+        #b5007d,
+        #21429c,
+        #0071ff,
+        #ffd900,
+        #ff9e00,
+        #ff0000);
+  }
+}

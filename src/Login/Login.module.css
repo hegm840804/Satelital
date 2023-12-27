@@ -1,0 +1,369 @@
+.inputWithButton {
+  position: relative;
+  height: 100px;
+  width: 200px;
+}
+
+.estiloLabelCenter {
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+.loginButton {
+  color: rgb(255, 255, 255) !important;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 193px !important;
+  height: 38px;
+  background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+  border-radius: 6px;
+  margin-top: 10px;
+  width: fit-content;
+  font-family: skyFont;
+  display: flex;
+  justify-content: center;
+}
+
+.inputWithButton input {
+  width: 70%;
+  height: 25px;
+  padding-right: 60px;
+}
+
+.inputWithButton button {
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 6vw;
+
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  justify-content: center;
+  align-items: center;
+  max-width: 10000px !important;
+}
+
+.estiloLabels {
+  font-family: "skyFontRegular";
+  font-size: 16px;
+}
+
+.estiloForm {
+  background: #ffff;
+  width: 100%;
+  padding: 3%;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.boton {
+  padding: 2em auto;
+  background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+
+  color: rgb(255, 255, 255);
+  width: 60%;
+  margin-bottom: 1vw;
+  font-size: 18px;
+}
+
+
+.boton:hover {
+  padding: 2em auto;
+  background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+
+  color: rgb(255, 255, 255);
+  width: 60%;
+  margin-bottom: 1vw;
+  font-size: 18px;
+}
+
+.label {
+  color: #6E6E6E;
+  font-size: 1.25vw;
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+}
+
+.imageContainer {
+  display: flex;
+  position: fixed;
+  right: 0;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  margin-left: 15%;
+  margin-right: 15%;
+  border: solid #929292 1px;
+}
+
+.sideImage {
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.hiContainer {
+  display: none;
+}
+
+.botonSwitchActivo {
+  background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  border-radius: 20px;
+  width: 160px;
+}
+
+.botonSwitchInactivo {
+  background: #F2F2F2;
+  color: #7B7B7B;
+  font-size: 12px;
+  border-radius: 20px;
+  border: none;
+  width: 160px;
+  margin-left: 5px;
+}
+
+.botonSwitchInactivo:hover {
+  background: #e9e9e9 !important;
+  color: #7B7B7B;
+}
+
+.enlace{
+  color: #7B7B7B;
+}
+
+
+/******************************
+Inicia seccion para responsivo
+*******************************/
+
+@media only screen and (max-width:360px) {
+
+  .estiloForm {
+    min-width: 340px;
+  }
+
+  .botonSwitchActivo {
+    margin-top: 5vw;
+    width: 100%;
+    height: 30px;
+  }
+
+  .botonSwitchInactivo {
+    margin-top: 5vw;
+    width: 100%;
+    height: 30px;
+  }
+
+  .boton:hover{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width:428px) {
+
+  .estiloForm {
+    min-width: 340px;
+  }
+
+  .botonSwitchActivo {
+    margin-top: 5vw;
+    width: 100%;
+    height: 30px;
+  }
+
+  .botonSwitchInactivo {
+    margin-top: 5vw;
+    width: 100%;
+    height: 30px;
+  }
+
+  .boton:hover{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width:480px) {
+
+  .estiloForm {
+    min-width: 340px;
+  }
+
+  .botonSwitchActivo {
+    margin-top: 5vw;
+    width: 100%;
+    height: 30px;
+  }
+
+  .botonSwitchInactivo {
+    margin-top: 5vw;
+    width: 100%;
+    height: 30px;
+  }
+
+  .boton:hover{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width:320px) {
+
+  .estiloForm {
+    min-width: 320px;
+    
+  }
+
+  .botonSwitchActivo {
+    margin-top: 5vw;
+    width: 80%;
+    height: 30px;
+    font-size: 8px;
+  }
+
+  .botonSwitchInactivo {
+    margin-top: 5vw;
+    width: 80%;
+    height: 30px;
+    font-size: 8px;
+
+  }
+
+  .boton:hover{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width:576px) {
+  .estiloForm {
+    width: 80%;
+    padding: 3%;
+  }
+
+  .imageContainer {
+    display: none;
+  }
+
+  .hiContainer {
+    display: block;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .boton {
+    width: 100%;
+  }
+
+  .boton:hover{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width:768px) {
+  .estiloForm {
+    width: 80%;
+    padding: 3%;
+  }
+
+  .loginForm {
+    width: 100% !important;
+  }
+
+  .imageContainer {
+    display: none;
+  }
+
+  .hiContainer {
+    display: block;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .boton {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:5000px) {
+  .estiloForm {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width:4000px) {
+  .estiloForm {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width:3500px) {
+  .estiloForm {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width:3000px) {
+  .estiloForm {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width:2000px) {
+  .estiloForm {
+    max-width: 500px;
+  }
+}

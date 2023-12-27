@@ -1,0 +1,336 @@
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(
+    90deg,
+    #ff9e00 0%,
+    #ff0000 33.93%,
+    #b5007d 58.36%,
+    #21429c 82.54%,
+    #0071ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.title {
+  font-size: 18px;
+  color: #6e6e6e;
+}
+
+.titlegris {
+  font-size: 28px;
+  color: #6e6e6e;
+}
+
+.subtitlegris {
+  font-size: 18px;
+  color: #6e6e6e;
+}
+
+.subtitlegris2 {
+  font-size: 18px;
+  margin-top: -20px;
+  color: #6e6e6e;
+}
+
+.subtitlegris3 {
+  font-size: 18px;
+  margin-top: -10px;
+  font-weight: bold;
+  color: #6e6e6e;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+.cuadro {
+  box-sizing: border-box;
+  padding: 32px 24px;
+  width: 100%;
+  height: 150px;
+  background: #fafafa;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 30px 30px 30px 30px;
+}
+
+.paquetegb {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  color: #000fbe;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.paqueteprecio {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000fbe;
+  margin-top: -25px;
+}
+
+.paquetevigencia {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000fbe;
+  margin-top: -25px;
+  text-align: center;
+}
+
+.botonazul {
+  width: 105px;
+  height: 40px;
+
+  /* BOTON PRIMARIO MY SKY */
+
+  background: linear-gradient(
+    180deg,
+    #000fbe 0%,
+    #3d3de0 50%,
+    #000fbe 57.81%,
+    #000fbe 100%
+  );
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-left: 400px;
+}
+
+.botonazul:hover {
+  background: linear-gradient(
+    180deg,
+    #000fbe 0%,
+    #3d3de0 50%,
+    #000fbe 57.81%,
+    #000fbe 100%
+  );
+  color: rgb(255, 255, 255);
+}
+
+.imagen {
+  margin-top: -25px;
+}
+
+.imagen2 {
+  margin-top: -25px;
+}
+
+/*Inicia responsivo*/
+@media (min-width: 375px) and (max-width: 425px) {
+  .contenedor {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .titlegris {
+    font-size: 24px;
+    color: #6e6e6e;
+  }
+
+  .paqueteprecio {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000fbe;
+    width: 140px;
+    margin-left: 160px;
+    margin-top: -70px;
+  }
+
+  .subtitlegris2 {
+    font-size: 18px;
+    margin-top: -20px;
+    color: #6e6e6e;
+    margin-left: 160px;
+  }
+
+  .subtitlegris3 {
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: bold;
+    color: #6e6e6e;
+    margin-left: 160px;
+  }
+} /*termina 360px*/
+
+@media (min-width: 361px) and (max-width: 375px) {
+  .contenedor {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .titlegris {
+    font-size: 24px;
+    color: #6e6e6e;
+  }
+
+  .paqueteprecio {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000fbe;
+    width: 140px;
+    margin-left: 160px;
+    margin-top: -70px;
+  }
+
+  .subtitlegris2 {
+    font-size: 18px;
+    margin-top: -20px;
+    color: #6e6e6e;
+    margin-left: 160px;
+  }
+
+  .subtitlegris3 {
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: bold;
+    color: #6e6e6e;
+    margin-left: 160px;
+  }
+} /*termina 375px*/
+
+@media (min-width: 337px) and (max-width: 360px) {
+  .contenedor {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .titlegris {
+    font-size: 24px;
+    color: #6e6e6e;
+  }
+
+  .paqueteprecio {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000fbe;
+    width: 140px;
+    margin-left: 160px;
+    margin-top: -70px;
+  }
+
+  .subtitlegris2 {
+    font-size: 18px;
+    margin-top: -20px;
+    color: #6e6e6e;
+    margin-left: 160px;
+  }
+
+  .subtitlegris3 {
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: bold;
+    color: #6e6e6e;
+    margin-left: 160px;
+  }
+} /*termina 360px*/
+
+@media (min-width: 361px) and (max-width: 375px) {
+  .contenedor {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+} /*termina 360px*/
+
+@media (min-width: 319px) and (max-width: 336px) {
+  .contenedor {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .titlegris {
+    font-size: 18px;
+    color: #6e6e6e;
+  }
+
+  .paqueteprecio {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000fbe;
+    width: 140px;
+    margin-left: 120px;
+    margin-top: -70px;
+  }
+
+  .subtitlegris2 {
+    font-size: 18px;
+    margin-top: -20px;
+    color: #6e6e6e;
+    margin-left: 120px;
+  }
+
+  .subtitlegris3 {
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: bold;
+    color: #6e6e6e;
+    margin-left: 120px;
+  }
+} /*termina 360px*/
+
+@media (min-width: 361px) and (max-width: 375px) {
+  .contenedor {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .titlegris {
+    font-size: 24px;
+    color: #6e6e6e;
+  }
+
+  .paqueteprecio {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000fbe;
+    width: 140px;
+    margin-left: 145px;
+    margin-top: -70px;
+  }
+
+  .subtitlegris2 {
+    font-size: 18px;
+    margin-top: -20px;
+    color: #6e6e6e;
+    margin-left: 145px;
+  }
+
+  .subtitlegris3 {
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: bold;
+    color: #6e6e6e;
+    margin-left: 145px;
+  }
+}

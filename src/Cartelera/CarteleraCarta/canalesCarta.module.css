@@ -1,0 +1,291 @@
+.contenedor{
+  margin-top: 1.5vw;
+}
+
+
+.disfruta_tex{
+  padding-bottom: 2vh;
+}
+
+.rowcolapsible{
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.hrstyle{
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+  border-color: rgb(177, 168, 168);
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(
+    90deg,
+    #ff9e00 0%,
+    #ff0000 33.93%,
+    #b5007d 58.36%,
+    #21429c 82.54%,
+    #0071ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title {
+  padding-top: 5px;
+  font-size: 18px;
+  color: #6e6e6e;
+  line-height: 30px;
+}
+
+
+.headerRow {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subheaderRow {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.imagen {
+  border-radius: 20px;
+  height: 250px;
+}
+
+.tituloazul {
+  font-size: 24px;
+  color: #000FBE;
+}
+
+.tituloazul2 {
+  font-size: 24px;
+  color: #000FBE;
+  font-weight: bold;
+
+}
+
+.tituloazul3 {
+  font-size: 18px;
+  color: #000FBE;
+}
+
+.botonazul {
+  width: 100%;
+  height: 40px;
+
+  /* BOTON PRIMARIO MY SKY */
+
+  background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+  border-radius: 6px;
+}
+
+.cardBody{
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+
+.price {
+  margin-top: -10px;
+}
+
+.imagenSmall{
+  width: 124px;
+  height: 124px;
+  border-radius: 10px;
+}
+
+.tituloSmall{
+  font-size: 16px;
+  color: #000000;
+  font-weight: 900;
+}
+
+.tituloSmallShort{
+  font-size: 16px;
+  color: #000000;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.tituloSmallPrice{
+  color:#000FBE;
+  font-size: 14px;
+}
+
+.tituloSmallMonth{
+  color:#000FBE;
+  font-size: 14px;
+}
+
+.cardHeightSmall > div > div > div{
+  height: 300px;
+}
+
+.cardHeightSmall > div > div > div > div{
+  height: 100%;
+}
+
+.cardHeightSmall > div > div > div > div > div{
+  height: 100%;
+}
+
+.cardHeightSmall > div > div > div > div > div > div{
+  height: 100%;
+}
+
+.cardSmallContainer {
+  width: 9rem;
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.espacioCard{
+  padding: 0 0.5vw 0 0.5vw;
+}
+
+.titulo{
+  color: #000FBE;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.info{
+  color: #6E6E6E;
+  text-align: left;
+  font-size: 16px;
+  line-height: 110%;
+}
+
+.alineaFlecha{
+  display: flex;
+  justify-content: end;
+  padding-top: 3vw;
+}
+
+.rota{
+  rotate:180deg;
+  transition:.5s;
+  cursor: pointer;
+}
+
+.noRota{
+  rotate:0deg;
+  transition:.5s;
+  cursor: pointer;
+}
+
+.contenedorItemSmall{
+  padding-left: 0px;
+}
+
+.cardImgSmall{
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  margin-bottom: 3vw;
+  cursor: pointer;
+  
+}
+
+.contenedorImgSmall{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgSmall{
+  width: 64px;
+  height: 64px;
+}
+
+.precioCard{
+  color:#000FBE;
+  font-size: 18px;
+  margin-top: 0.5vw;
+  margin-bottom: 0px;
+
+}
+
+.allday{
+  color:#000FBE;
+  font-size: 14px;
+}
+/*******************************
+Inicia seccion para responsivo
+********************************/
+
+@media screen and (max-width: 425px) {
+  .cardSmall{
+    padding: 6vw 5vw 3vw 5vw;
+    margin-bottom: 3vw;
+  }
+
+
+  .cardBody{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .contenedor{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 6vw;
+  }
+
+  .titulo{
+    color: #000FBE;
+    font-size: 5.5vw;
+  }
+  
+  .info{
+    color: #6E6E6E;
+    text-align: justify;
+    font-size: 3.68vw;
+    line-height: 5.5vw;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .cardSmall{
+    padding: 6vw 3vw 3vw 3vw;
+    margin-bottom: 3vw;
+  }
+
+  .cardBody{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .contenedor{
+    padding-left: 9vw;
+    padding-right: 9vw;
+    margin-bottom: 6vw;
+  }
+
+  .titulo{
+    color: #000FBE;
+    font-size: 6vw;
+  }
+
+  .info{
+    color: #6E6E6E;
+    text-align: justify;
+    font-size: 3.88vw;
+    line-height: 5.5vw;
+  }
+}
+  

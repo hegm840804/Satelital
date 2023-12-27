@@ -1,0 +1,501 @@
+.backgroundCard {
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background: linear-gradient(0deg, #fafafa 0%, #fafafa 100%), #fff;
+  margin: 0;
+  height: 100%;
+  border: 0;
+}
+
+.bodyCard {
+  color: #6e6e6e;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cardAviso{
+  width: 490px;
+  height: 80px;
+
+  border-radius: 16px;
+  border: 1px solid transparent;
+  background: linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 0px) padding-box padding-box,
+    linear-gradient(90deg, #0071FF 0%, #21429C 50%, #B5007D 100%) border-box border-box;
+
+}
+
+
+.cardOffer {
+  width: 342px;
+  height: 368px;
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+}
+
+.colAviso{
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+.colPadding {
+  padding-bottom: 0px;
+}
+
+.colSpectrumBasico{
+  padding-left: 0px;
+}
+
+.colTitulo{
+  padding: 20px 0px 0px 0px;
+}
+
+.containerSlider {
+  display: flex;
+  justify-content: center;
+}
+
+.imgDeco{
+  height: 97px;
+  width: auto;
+}
+
+.padding-container {
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.paddingSlide {
+  padding-right: 15px;
+}
+
+.positionImg1{
+  position: relative;
+  bottom: 78px;
+  left: 220px;
+}
+
+.positionImg2{
+  position: relative;
+  top: -75px;
+}
+
+.p-tb-15 {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+}
+
+.rowCards {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.sliders {
+  max-width: 800px;
+  width: 100%;
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(90deg,
+      #ff9e00 0%,
+      #ff0000 33.93%,
+      #b5007d 58.36%,
+      #21429c 82.54%,
+      #0071ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.spectrumSkyBasico {
+  background: linear-gradient(90deg,
+      #0071ff 0.01%,
+      #21429c 103.27%,
+      #b5007d 206.52%);
+  padding: 3px 0px 0px 15px;
+  color: #fff;
+  height: 57px;
+  
+}
+
+.spectrumSkyPremium {
+  background: linear-gradient(90deg,
+      #0071ff -108.18%,
+      #21429c -4.09%,
+      #b5007d 100%);
+      padding: 3px 0px 0px 15px;
+  color: #fff;
+  height: 57px;
+}
+
+.subtitleOffer {
+  color: var(--text-secondary-text, #4d4d4d);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.subtitleOfferSup {
+  color: var(--text-secondary-text, #4d4d4d);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.textoAviso1{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.5vw;
+  margin-bottom: 0px;
+  color: #6e6e6e;
+}
+
+.textoAviso2{
+  font-size: 23px;
+  text-align: center;
+  margin-top: .15vw;
+  color: #6E6E6E;
+  font-weight: 350;
+  line-height: 25.62px;
+  text-decoration: underline;
+}
+
+.textCosto {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 56px;
+  
+}
+
+
+.titleCard {
+  color: #0071ff;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  word-wrap: break-word;
+  background: var(--sky,
+      linear-gradient(90deg, #0071ff 0%, #21429c 50%, #b5007d 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleMain {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+
+}
+
+
+.tituloOferta {
+  font-size: 12px;
+  color: #292929;
+  margin-bottom: 0px;
+}
+
+.tituloOfertaInf {
+  font-size: 12px;
+  color: #292929;
+  margin-bottom: 15px;
+}
+
+.tituloOfertaBold{
+  font-size: 13px;
+  color: #292929;
+  font-weight: 600;
+}
+
+.tituloOfertaBold2{
+  font-size: 16px;
+  color: #292929;
+  font-weight: 600;
+}
+
+.vix{
+  height: 20px;
+}
+
+.pagingDot {
+  height: 5px;
+  background: #ddd;
+  width: 25px;
+
+}
+
+[class~=slick-active] .pagingDot {
+  height: 8px;
+  background: rgb(22, 22, 22, .5);
+  width: 30px;
+
+}
+
+.dotsSet li {
+  margin: 10px
+}
+
+/*****************************
+Inicia seccion para responsivo _
+******************************/
+
+@media only screen and (max-width: 480px) {
+
+  .containerSlider{
+    padding-left: 14vw;
+  }
+
+  .imgDeco{
+    height: 24vw;
+  }
+
+  .positionImg1{
+    bottom: 18.5vw;
+    left: 220px;
+  }
+
+  .padding-container{
+    font-size: 28px;
+    padding-left: 0vw;
+    padding-top: 0vw;
+  }
+
+  .tituloSmall{
+    padding-left: 2vw;
+    margin-top: -9vw;
+  }
+
+  .rowCards{
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .colAviso{
+    margin-top: 12%;
+    padding-left: 16%;
+    padding-right: 16%;
+  }
+
+  .cardAviso{
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+  .cardOffer{
+    height: 390px;
+  }
+
+  .barras{
+    margin: 8vw 0 0vw -7vw;
+  }
+
+}
+
+@media only screen and (max-width: 428px) {
+
+  .containerSlider{
+    padding-left: 9.75vw;
+  }
+
+  .imgDeco{
+    height: 24vw;
+  }
+
+  .positionImg1{
+    bottom: 18.5vw;
+    left: 220px;
+  }
+
+  .padding-container{
+    font-size: 28px;
+    padding-left: 0vw;
+    padding-top: 0vw;
+  }
+
+  .tituloSmall{
+    padding-left: 2vw;
+    margin-top: -9vw;
+  }
+
+  .rowCards{
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .colAviso{
+    margin-top: 12%;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .cardAviso{
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+  .cardOffer{
+    height: 385px;
+  }
+
+}
+
+@media only screen and (max-width: 384px) {
+
+  .containerSlider{
+    padding-left: 6vw;
+  }
+
+  .imgDeco{
+    height: 24vw;
+  }
+
+  .positionImg1{
+    bottom: 18.5vw;
+    left: 220px;
+  }
+
+  .padding-container{
+    font-size: 28px;
+    padding-left: 0vw;
+    padding-top: 0vw;
+  }
+
+  .tituloSmall{
+    padding-left: 2vw;
+    margin-top: -9vw;
+  }
+
+  .rowCards{
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .colAviso{
+    margin-top: 12%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .cardAviso{
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+  .cardOffer{
+    height: 375px;
+  }
+
+  .barras{
+    margin: 8vw 0 8vw -4vw;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  .containerSlider{
+    padding-left: 4.5vw;
+  }
+
+ .imgDeco{
+    height: 25vw;
+  }
+
+  .positionImg1{
+    bottom: 19.75vw;
+    left: 220px;
+  }
+
+  .colAviso{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+  .containerSlider{
+    padding-left: 2.5vw;
+  }
+
+ .imgDeco{
+    height: 26vw;
+  }
+
+  .positionImg1{
+    bottom: 20.75vw;
+    left: 220px;
+  }
+
+  .colAviso{
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .cardOffer{
+    width: 100%;
+    height: 130vw;
+  }
+
+  .containerSlider{
+    padding-left: 3.5vw;
+  }
+
+  .imgDeco{
+    height: 29vw;
+  }
+
+  .positionImg1{
+    bottom: 23.5vw;
+    left: 200px;
+  }
+
+  .paddingSlide{
+    padding-right: 3vw;
+  }
+
+  .paddingSlide2{
+    padding-right: 3vw;
+  }
+
+  .barras{
+    margin: 9vw 0 0vw -7vw;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 1025px) {
+  .colPadding{
+    margin-top: 5% !important;
+  }
+}

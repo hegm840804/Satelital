@@ -1,0 +1,631 @@
+.mensaje {
+  color: red;
+}
+
+.messageStyle{
+   margin-left: 25%;
+}
+
+.layered-image {
+  position: relative;
+}
+
+.layered-image img {
+  height: 200px;
+  width: 300px;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  opacity: .4
+}
+
+.headerRow {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subheaderRow {
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 30px;
+
+}
+
+.imagesRow {
+  padding-left: 50px;
+  padding-right: 0px;
+  padding-top: 0px;
+  display: flex;
+  width: 100%;
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(90deg,
+      #ff9e00 0%,
+      #ff0000 33.93%,
+      #b5007d 58.36%,
+      #21429c 82.54%,
+      #0071ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #6e6e6e;
+}
+
+.subtitle {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  margin-top: -10px;
+
+  color: #6e6e6e;
+}
+
+.button {
+  font-family: "skyBold";
+  color: rgb(255, 255, 255) !important;
+  text-align: center;
+  width: 192px;
+  height: 40px;
+  background: linear-gradient(180deg,
+      #000fbe 0%,
+      #3d3de0 50%,
+      #000fbe 57.81%,
+      #000fbe 100%);
+  border-radius: 6px;
+  margin-bottom: 21px;
+}
+
+.titleCard {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #6e6e6e;
+}
+
+.titleCardBold {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #6e6e6e;
+}
+
+.domicilioCard {
+  box-sizing: border-box;
+  justify-content: center;
+  height: 80px;
+  padding-top: 20px;
+  padding-left: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  line-height: 18px;
+}
+
+.imagen {
+  display: block;
+  border-radius: 150px;
+  width: 100%;
+  cursor: pointer;
+  max-width: fit-content;
+}
+
+.imagenChecked {
+  display: block;
+  border-radius: 150px;
+  border: 3px solid #6e6e6e;
+  width: 100%;
+  cursor: pointer;
+  max-width: fit-content;
+}
+
+.imagesCol {
+  max-width: 120px;
+  position: relative;
+}
+
+.checked {
+  position: absolute;
+  border-radius: 150px;
+  background: #ffffff;
+  left: 68%;
+  bottom: 60%;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.ellipse {
+  display: block;
+  border-radius: 150px;
+  border: 1px solid #6e6e6e;
+  width: 120px;
+  height: 120px;
+}
+
+.ellipseMini {
+  position: relative;
+  border-radius: 150px;
+  border: 1px solid #6e6e6e;
+  width: 24px;
+  height: 24px;
+  left: 48px;
+  top: -80px;
+}
+
+.plus {
+  position: relative;
+  border-radius: 150px;
+  width: 10px;
+  height: 11px;
+  left: 31px;
+  top: -80px;
+}
+
+.subirFoto {
+  position: relative;
+  left: 30px;
+  top: -70px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(60, 60, 60, 0.7);
+}
+
+.modalTitle {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #6e6e6e;
+}
+
+.modalSutitle {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #6e6e6e;
+  margin-left: 7% !important ;
+  margin-right: 7% !important;
+}
+
+.divForm {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.passwordButton {
+  color: rgb(255, 255, 255) !important;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 193px !important;
+  height: 38px;
+  background: linear-gradient(180deg,
+      #000fbe 0%,
+      #3d3de0 50%,
+      #000fbe 57.81%,
+      #000fbe 100%);
+  border-radius: 6px;
+  margin-top: 10px;
+
+  font-family: skyBold;
+  display: flex;
+  justify-content: center;
+}
+
+.cancelButton {
+  color: #000fbe;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 62px !important;
+  height: 18px;
+  background: none;
+  border: 0px;
+  border-radius: 6px;
+  margin-top: 10px;
+  width: fit-content;
+  font-family: skyFont;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+
+.cancelButton:hover {
+  background-color: #ffffff;
+  color: #000fbe;
+}
+
+.divButton {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.form {
+  width: 70%;
+  color: #6e6e6e;
+}
+
+.formPasswordText {
+  border-right: 0;
+}
+
+.formPasswordButton {
+  border: solid 1px #ced4da;
+  border-left: 0;
+}
+.formError {
+  border: solid 1px red;
+  border-left: 0;
+}
+
+
+@media screen and (max-width: 1003px) {
+
+  .imagesRow {
+
+    width: 100%;
+    margin: 2em auto !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  .wImage {
+    width: 100%;
+    margin: 2em auto !important;
+  }
+
+  .imagen {
+    width: 120px;
+  }
+
+  .imagesCol {
+    margin-right: 10% !important;
+
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .imagesRow {
+    width: 100%;
+  }
+
+  .imagen {
+    width: 120px;
+    padding: 10%;
+  }
+
+  .wImage {
+    width: 100%;
+  }
+
+  .messageStyle{
+    margin-left: 10%;
+ }
+ 
+}
+
+@media screen and (max-width: 780px) {
+
+  .subheaderRow,
+  .headerRow {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .imagesRow {
+    width: 100%;
+  }
+
+  .imagen {
+    width: 120px;
+    padding: 10%;
+  }
+
+  .wImage {
+    width: 80%;
+  }
+
+  .imagesCol {
+    margin-right: 4% !important;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+  }
+
+
+  .passwordButton {
+    width: 100% !important;
+    padding-left: 2%;
+    padding-right: 2%;
+
+
+  }
+
+  .divButton {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+  }
+
+  .modalSutitle {
+    width: 100% !important;
+    padding: auto;
+    margin-left:1% !important;
+    margin-right: 1% !important;
+  }
+
+  .imagesCol {
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 80px;
+  }
+
+  .imagesRow {
+    width: 100%;
+  }
+
+  .imagen {
+    width: 150%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  .subheaderRow,
+  .headerRow {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .imagesCol {
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 80px;
+  }
+
+  .imagesRow {
+    width: 100%;
+  }
+
+  .imagen {
+    width: 150%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .alert {
+    left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 1;
+  }
+
+  .subheaderRow,
+  .headerRow {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .imagesRow {
+    width: 100%;
+  }
+
+  .imagen {
+    width: 150% !important;
+    padding: 2%;
+  }
+
+  .wImage {
+    width: 100%;
+  }
+
+  .imagesCol {
+    margin-right: 4% !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .wImage {
+    width: 80%;
+    margin: 2em auto !important;
+
+  }
+
+  .imagen {
+    width: 120px;
+  }
+
+  .imagesCol {
+    margin-right: 10% !important;
+
+  }
+  .checked {
+    width: 30%;
+  }
+
+  
+  .spectrum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  
+    /* Spectrum */
+  
+    background: linear-gradient(90deg,
+        #ff9e00 0%,
+        #ff0000 33.93%,
+        #b5007d 58.36%,
+        #21429c 82.54%,
+        #0071ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@media screen and (max-width: 431px) {
+
+  .checked{
+    left:90%; 
+  }
+
+  .imagesRow {
+    padding-left: 0px; 
+    padding-right: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .spectrum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  
+    /* Spectrum */
+  
+    background: linear-gradient(90deg,
+        #ff9e00 0%,
+        #ff0000 33.93%,
+        #b5007d 58.36%,
+        #21429c 82.54%,
+        #0071ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+
+
+
+@media screen and (max-width: 380px) {
+  .checked{
+    left: 90%;
+    bottom: 60%;
+  }
+
+
+  .imagesRow {
+    padding-left: 0px; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .wImage {
+    width: 100%;
+    margin: 2em auto !important;
+    margin-left: 5% !important;
+
+  }
+  .imagen{
+    max-width: 150%;
+    padding: 1%;
+  }
+
+}
+
+@media screen and (max-width: 353px) {
+
+
+  .domicilioCard {
+    height: 120px;
+  }
+
+  .imagesRow {
+    padding-left: 0px; 
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .spectrum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  
+    /* Spectrum */
+  
+    background: linear-gradient(90deg,
+        #ff9e00 0%,
+        #ff0000 33.93%,
+        #b5007d 58.36%,
+        #21429c 82.54%,
+        #0071ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 300px) {
+  .imagesRow {
+    padding-left: 10% !important;
+  }
+}
+

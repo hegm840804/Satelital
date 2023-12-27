@@ -1,0 +1,421 @@
+  .spectrum {
+    font-size: 42px;
+    color: #6E6E6E;
+  }
+
+  .title {
+    font-size: 18px;
+    color: #6E6E6E;
+  }
+
+  .titlegris {
+    font-size: 28px;
+    color: #6E6E6E;
+  }
+
+  .subtitlemorado {
+    font-size: 18px;
+    color: #6E00FF;
+    font-weight: bold;
+  }
+
+  .textos {
+    font-size: 18px;
+    color: #828282;
+  }
+
+  .textosbold {
+    font-size: 18px;
+    color: #828282;
+    font-weight: bold;
+  }
+
+  .textos2 {
+    font-size: 22px;
+    color: #828282;
+  }
+
+
+
+  .contenedor {
+    width: 100%;
+  }
+
+  .imagen {
+    width: 30px;
+  }
+
+  .espacio {
+    margin-left: 8px;
+  }
+
+
+  .cuadro {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 24px;
+    background: #FAFAFA;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+
+
+  }
+
+  .paquetegb {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+    /* SKY CELULAR */
+
+    background: linear-gradient(90deg, #6E00FF 0%, #FF00A5 95.94%, #FF00A5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent
+  }
+
+  .paquetegbbold {
+    font-family: "skyFontRegular";
+    font-weight: bold;
+  }
+
+  .paqueteprecio {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-size: 48px;
+    line-height: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    /* SKY CELULAR */
+
+    background: linear-gradient(90deg, #6E00FF 0%, #FF00A5 95.94%, #FF00A5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent
+  }
+
+  .paquetemes {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #6E6E6E;
+    margin-top: -25px;
+    text-align: center;
+  }
+
+  .botonazul {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    /* BOTON PRIMARIO MY SKY */
+
+    background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+    border-radius: 6px;
+
+  }
+
+  .botonazul:hover {
+    background: linear-gradient(180deg,
+        #000fbe 0%,
+        #3d3de0 50%,
+        #000fbe 57.81%,
+        #000fbe 100%);
+    color: rgb(255, 255, 255);
+
+  }
+
+  .ancho {
+    width: 1480px;
+  }
+
+  .separador {
+    padding-left: .5vw;
+    padding-right: .5vw;
+  }
+
+
+  /******************************
+Inicia seccion para responsivo
+*******************************/
+
+
+  @media (min-width: 376px) and (max-width: 428px) {
+    .contenedorCabeceraSmall {
+      padding-left: 6.66vw;
+      padding-right: 6.66vw;
+    }
+
+    .spectrumSmall {
+      font-size: 5.55vw;
+      color: #6E6E6E;
+    }
+
+    .title {
+      font-size: 3.88vw;
+      margin-bottom: 8vw;
+
+    }
+
+    .contenedorSmall {
+      padding-left: 6.66vw;
+      padding-right: 6.66vw;
+
+    }
+
+    .paquetegb {
+      font-size: 6.66vw;
+    }
+
+    .paquetegbbold {
+      font-size: 6.66vw;
+    }
+
+    .cuadroSmall {
+      padding: 0px 4.5vw 5vw 4.5vw;
+    }
+
+    .paqueteprecio {
+      font-size: 6.13.33vw;
+    }
+
+    .paquetemes {
+      font-size: 6.66vw;
+    }
+
+    .textos2 {
+      font-size: 5vw;
+      line-height: 5vw;
+    }
+
+    .subtitlemorado {
+      font-size: 4.44vw;
+      margin-bottom: 3vw;
+    }
+
+    .textosbold {
+      font-size: 4.44vw;
+      padding-left: 2vw;
+    }
+
+    .textos {
+      font-size: 4.44vw;
+      padding-left: 2vw;
+    }
+
+    .botonazul {
+      margin-top: 4vw;
+    }
+
+  }
+
+  @media (min-width: 361px) and (max-width: 375px) {
+
+    .contenedorCabeceraSmall {
+      padding-left: 6.66vw;
+      padding-right: 6.66vw;
+    }
+
+    .spectrumSmall {
+      font-size: 5.55vw;
+      color: #6E6E6E;
+    }
+
+    .title {
+      font-size: 3.88vw;
+      margin-bottom: 8vw;
+
+    }
+
+    .contenedorSmall {
+      padding-left: 6.66vw;
+      padding-right: 6.66vw;
+
+    }
+
+    .paquetegb {
+      font-size: 6.66vw;
+    }
+
+    .paquetegbbold {
+      font-size: 6.66vw;
+    }
+
+    .cuadroSmall {
+      padding: 0px 4.5vw 5vw 4.5vw;
+    }
+
+    .paqueteprecio {
+      font-size: 6.13.33vw;
+    }
+
+    .paquetemes {
+      font-size: 6.66vw;
+    }
+
+    .textos2 {
+      font-size: 5vw;
+      line-height: 5vw;
+    }
+
+    .subtitlemorado {
+      font-size: 4.44vw;
+      margin-bottom: 3vw;
+    }
+
+    .textosbold {
+      font-size: 4.44vw;
+      padding-left: 2vw;
+    }
+
+    .textos {
+      font-size: 4.44vw;
+      padding-left: 2vw;
+    }
+
+    .botonazul {
+      margin-top: 4vw;
+    }
+  }
+
+  @media (min-width: 337px) and (max-width: 360px) {
+    .contenedorCabeceraSmall {
+      padding-left: 6.66vw;
+      padding-right: 6.66vw;
+    }
+
+    .spectrumSmall {
+      font-size: 5.55vw;
+      color: #6E6E6E;
+    }
+
+    .title {
+      font-size: 3.88vw;
+      margin-bottom: 8vw;
+
+    }
+
+    .contenedorSmall {
+      padding-left: 6.66vw;
+      padding-right: 6.66vw;
+
+    }
+
+    .paquetegb {
+      font-size: 6.66vw;
+    }
+
+    .paquetegbbold {
+      font-size: 6.66vw;
+    }
+
+    .cuadroSmall {
+      padding: 0px 4.5vw 5vw 4.5vw;
+    }
+
+    .paqueteprecio {
+      font-size: 6.13.33vw;
+    }
+
+    .paquetemes {
+      font-size: 6.66vw;
+    }
+
+    .textos2 {
+      font-size: 5vw;
+      line-height: 5vw;
+    }
+
+    .subtitlemorado {
+      font-size: 4.44vw;
+      margin-bottom: 3vw;
+    }
+
+    .textosbold {
+      font-size: 4.44vw;
+      padding-left: 2vw;
+    }
+
+    .textos {
+      font-size: 4.44vw;
+      padding-left: 2vw;
+    }
+
+    .botonazul {
+      margin-top: 4vw;
+    }
+
+  }
+
+  @media (min-width: 319px) and (max-width: 336px) {
+
+    .contenedorCabeceraSmall {
+      padding-left: 6.66vw;
+      padding-right: 6.66vw;
+    }
+
+    .spectrumSmall {
+      font-size: 5.55vw;
+      color: #6E6E6E;
+    }
+
+    .title {
+      font-size: 3.88vw;
+      margin-bottom: 8vw;
+
+    }
+
+    .contenedorSmall {
+      padding-left: 6.66vw;
+      padding-right: 6.66vw;
+
+    }
+
+    .paquetegb {
+      font-size: 6.66vw;
+    }
+
+    .paquetegbbold {
+      font-size: 6.66vw;
+    }
+
+    .cuadroSmall {
+      padding: 0px 4.5vw 5vw 4.5vw;
+    }
+
+    .paqueteprecio {
+      font-size: 6.13.33vw;
+    }
+
+    .paquetemes {
+      font-size: 6.66vw;
+    }
+
+    .textos2 {
+      font-size: 5vw;
+      line-height: 5vw;
+    }
+
+    .subtitlemorado {
+      font-size: 4.44vw;
+      margin-bottom: 3vw;
+    }
+
+    .textosbold {
+      font-size: 4.44vw;
+      padding-left: 2vw;
+    }
+
+    .textos {
+      font-size: 4.44vw;
+      padding-left: 2vw;
+    }
+
+    .botonazul {
+      margin-top: 4vw;
+    }
+  }

@@ -1,0 +1,430 @@
+.cardBody{
+  padding-top:"30px";
+  padding:1vw 0vw 1vw 0vw;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.imagen {
+  height: 140px;
+  width: auto;
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(
+    90deg,
+    #ff9e00 0%,
+    #ff0000 33.93%,
+    #b5007d 58.36%,
+    #21429c 82.54%,
+    #0071ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.title {
+  font-size: 32px;
+  color: #6e6e6e;
+  padding-top: 80px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #6e6e6e;
+  margin-bottom: 7px;
+}
+
+.textFechaLimite {
+  font-size: 20px;
+  color: #6e6e6e;
+  margin-top: -10px;
+}
+
+.subtitle2 {
+  font-size: 20px;
+  color: #6e6e6e;
+  margin-top: -10px;
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+.subtitle3 {
+  font-size: 20px;
+  color: #000fbe;
+  margin-top: -10px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.subtitle4 {
+  font-size: 20px;
+  font-weight: 500 !important;
+  color: #6e6e6e;
+  align-items: end;
+  text-align: right;
+}
+
+.alturaperfil {
+  margin-top: 55px;
+}
+
+.titlegris {
+  font-size: 28px;
+  color: #6e6e6e;
+}
+
+.subtitlegris {
+  font-size: 18px;
+  color: #6e6e6e;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+.cuadro {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 24px;
+  width: 460px;
+  height: 250px;
+  background: #fafafa;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+
+.paquetegb {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  color: #000fbe;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.paqueteprecio {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000fbe;
+  margin-top: -25px;
+  text-align: center;
+}
+
+.paquetevigencia {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000fbe;
+  margin-top: -25px;
+  text-align: center;
+}
+
+.botonazul {
+  width: 100%;
+  height: 40px;
+
+  /* BOTON PRIMARIO MY SKY */
+
+  background: linear-gradient(
+    180deg,
+    #000fbe 0%,
+    #3d3de0 50%,
+    #000fbe 57.81%,
+    #000fbe 100%
+  );
+  border-radius: 6px;
+}
+
+.centrar {
+  text-align: right;
+  margin-top: 25px;
+  width: 320px;
+  padding: 0.5vw 1vw 0.5vw 1vw;
+}
+
+.alineaImagenSmall {
+  margin-right: 0px !important;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.centraCard {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: 2vw;
+  padding-right: 0px;
+  padding-left: 4.5vw;
+}
+
+.alignColCenterContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*-----------------------estilos de prueba-------------------*/
+
+.card2{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.colAvatar{
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.imagen {
+  height: 140px;
+  width: auto;
+}
+
+
+
+.colUsuario{
+  padding-left: 0px;
+  padding-top: 10%;
+}
+
+.textoUsuario{
+  color: #6E6E6E;
+  font-size: 32px;
+}
+
+.textoSaldo{
+  color: #6E6E6E;
+  font-size: 20px;
+
+}
+
+.textoFecha{
+  color: #6E6E6E;
+  font-size: 20px;
+
+}
+
+.textoCard{
+  font-size: 20px;
+  color: #3C3C3C;
+}
+
+
+
+.textoCardAzul{
+  font-size: 20px;
+  color: #000FBE;
+}
+
+.divSaldo{
+height: 25px;
+}
+
+.divFecha{
+  height: 25px;
+}
+
+.divTextoCard1{
+  height: 25px;
+}
+
+.divTextoCard2{
+  height: 25px;
+  text-align: right;
+}
+
+.fecha{
+  font-size: 20px;
+  color: #000fbe;
+}
+
+.botonCard{
+  width: 100%;
+  height: 40px;
+
+  background: linear-gradient(
+    180deg,
+    #000fbe 0%,
+    #3d3de0 50%,
+    #000fbe 57.81%,
+    #000fbe 100%
+  );
+  border-radius: 6px;
+  margin-top: 1vw;
+}
+
+.colCard{
+  display: flex;
+  justify-content: right;
+  padding-right: 7vw;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/*-----------------------estilos de prueba-------------------*/
+
+
+@media only screen and (max-width: 1600px) {
+  .colCard{
+    padding-right: 8vw;
+  }
+  
+}
+
+@media only screen and (max-width: 1440px) {
+  .colCard{
+    padding-right: 9vw;
+  }
+  
+}
+
+@media only screen and (max-width: 1366px) {
+  .colCard{
+    padding-right: 10vw;
+  }
+  
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .colCard{
+    padding-right: 0vw;
+    justify-content: left;
+  }
+  
+  .imagen{
+    width: 100px;
+    height: auto;
+  }
+
+  .textoUsuario{
+    font-size: 24px;
+  }
+
+  .textoSaldo{
+    font-size: 16px;
+  }
+
+  .textoFecha{
+    font-size:16px ;
+  }
+
+  .fecha{
+    font-size: 16px;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+
+  .containerPrueba{
+    margin-bottom: 5%;
+  }
+
+  .containerPrueba{
+    margin-top: 3vw;
+  }
+
+  .colAvatar{
+    justify-content: center;
+  }
+
+  .colUsuario{
+    text-align: center;
+  }
+
+  .textoUsuario{
+    font-size:  24px;
+  }
+
+  .textoSaldo{
+    font-size:  16px;
+  }
+
+  .textoFecha{
+    font-size:  16px;
+  }
+
+  .divSaldo{
+    height: 20px;
+  }
+
+  .divFecha{
+    height: 20px;
+  }
+
+  .colUsuario{
+    padding-top: 4%;
+    margin-bottom: 5%;
+  }
+
+  .colCard{
+    justify-content: center;
+    padding-left: 0px;
+  }
+
+  .card2{
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .cardBody{
+    text-align: center;
+  }
+
+  .divTextoCard2{
+    text-align: center;
+  }
+
+  .textoCard{
+    font-size: 16px;
+  }
+
+  .textoCardAzul{
+    font-size: 16px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

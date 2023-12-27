@@ -1,0 +1,172 @@
+.title {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 29px;
+  margin-left: 30px;
+  color: #6e6e6e;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.paqueteCard {
+  box-sizing: border-box;
+  /* Auto layout */
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  width: 100%;
+  height: 196px;
+
+  background-color: #fafafa;
+  box-shadow: #eaeaea;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.paqueteRow {
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subheaderRow {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.titleCard {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+
+  text-align: center;
+
+  color: #000fbe;
+}
+
+.priceCard {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: -10px;
+
+  text-align: center;
+
+  color: #000fbe;
+}
+
+.validCard {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: -10px;
+
+  text-align: center;
+
+  color: #000fbe;
+}
+
+.button {
+  font-family: "skyFontRegular";
+  color: rgb(255, 255, 255) !important;
+  text-align: center;
+  width: 90%;
+  height: 38px;
+  background: linear-gradient(
+    180deg,
+    #000fbe 0%,
+    #3d3de0 50%,
+    #000fbe 57.81%,
+    #000fbe 100%
+  );
+  border-radius: 6px;
+  margin-bottom: 21px;
+  margin-top: 5px;
+}
+
+.paqueteRowSlider {
+  display: none;
+}
+
+.colGrid {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .paqueteRowSlider {
+    display: block;
+  }
+  .paqueteRow {
+    display: none;
+  }
+  .paqueteCard {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .title {
+    margin-left: 0px;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .paqueteRow {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .paqueteRow {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .paqueteRow {
+    padding-left: 50px;
+    padding-right: 110px;
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .paqueteRow {
+    padding-left: 50px;
+    padding-right: 110px;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .paqueteRow {
+    padding-left: 50px;
+    padding-right: 110px;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .paqueteRow {
+    padding-left: 50px;
+    padding-right: 110px;
+    width: 60%;
+  }
+}

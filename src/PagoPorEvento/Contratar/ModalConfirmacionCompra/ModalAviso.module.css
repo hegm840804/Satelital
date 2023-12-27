@@ -1,0 +1,57 @@
+.messageStyle{
+    margin-left: 25%;
+ }
+ 
+
+.contenedor{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.descripcion{
+    font-size: 90%;
+    color: #6E6E6E;
+    text-align: center;
+}
+
+.boton{
+    padding :2em auto;
+    background-image: linear-gradient(-1deg,transparent 49%,
+    rgba(255,255,255,0.25)50%,
+    rgba(255,255,255,0));
+    background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+    color:rgb(255,255,255);
+	width: 30%;
+    margin: auto;
+}
+
+.botonCancelar{
+    padding :2em auto;
+    background-color: rgb(255,255,255);
+    color:rgb(0,15,245);
+	width: 30%;
+    margin: auto;
+    border: 0px;
+}
+
+.botonCancelar:hover{
+    background-color: transparent;
+    color:rgb(32, 110, 146);
+}
+
+.titulo{
+    font-size: 26px;
+    color: #6E6E6E;
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+  
+    .messageStyle{
+      margin-left: 10%;
+   }
+   
+  }

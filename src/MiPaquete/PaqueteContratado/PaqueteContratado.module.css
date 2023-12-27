@@ -1,0 +1,242 @@
+.contenedor {
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-right: 4vw;
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(90deg,
+      #ff9e00 0%,
+      #ff0000 33.93%,
+      #b5007d 58.36%,
+      #21429c 82.54%,
+      #0071ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title {
+  padding-top: 5px;
+  font-size: 18px;
+  color: #6e6e6e;
+  line-height: 30px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.textContainer {
+  width: 100%;
+}
+
+.paqueteCard {
+  box-sizing: border-box;
+  /* Auto layout */
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  width: 100%;
+  margin-top: 24px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: unset;
+  height: 220px;
+}
+
+.paqueteRow {
+  padding-left: 100px;
+  padding-right: 160px;
+}
+
+.headerRow {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subheaderRow {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.titleCard {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #000fbe;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.hrCard {
+  padding-bottom: 10px;
+  border-width: 2px;
+  color: #c4c4c4;
+}
+
+.listCard {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: -10px;
+  color: #6e6e6e;
+  text-align: center;
+}
+
+.buttonCol {
+  display: none;
+}
+
+.iconArrowUp {
+  width: 20px;
+  height: 20px;
+  color: #000fbe;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.iconArrowDown {
+  width: 20px;
+  height: 20px;
+  color: #000fbe;
+  rotate: 180deg !important;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .titleContainer {
+    width: 90%;
+    display: flex;
+  }
+
+  .textContainer {
+    width: 90%;
+  }
+
+  .titleCol {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .buttonCol {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .paqueteCard {
+    height: 100%;
+    margin-top: 15px;
+  }
+
+  .smallColMargin {
+    margin-top: 20px;
+  }
+
+  .paqueteRow {
+    margin: 0;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100%;
+  }
+
+  .headerRow {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+  }
+  
+  .paqueteAlign {
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+
+  .spectrum {
+    font-size: 28px;
+  }
+
+  .title {
+    line-height: 20px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .titleCard {
+    font-size: 20px;
+    font-weight: 400 !important;
+  }
+
+  .listCard {
+    font-size: 14px;
+    font-weight: 400 !important;
+    line-height: 16px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .paqueteRow {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .paqueteRow {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .paqueteRow {
+    padding-left: 50px;
+    padding-right: 110px;
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .paqueteRow {
+    padding-left: 103px;
+    padding-right: 110px;
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .paqueteRow {
+    padding-left: 50px;
+    padding-right: 0px;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .paqueteRow {
+    padding-left: 50px;
+    padding-right: 0px;
+    width: 60%;
+  }
+}

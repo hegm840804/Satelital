@@ -1,0 +1,104 @@
+.contenedor {
+  margin-top: 2vw;
+  padding-left: 1vw;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(
+    90deg,
+    #ff9e00 0%,
+    #ff0000 33.93%,
+    #b5007d 58.36%,
+    #21429c 82.54%,
+    #0071ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.alineaBotones {
+  float: right;
+}
+
+.enlace {
+  color: #000fbe;
+  text-decoration: none;
+}
+.margenEnlace {
+  margin-left: 2.5vw;
+}
+
+.icono {
+  margin-right: 0.8vw;
+}
+
+.columnaEnlaces{
+  padding-right: 0px;
+  display: flex;
+
+  
+}
+
+.tabContainer {
+  margin-top: 30px;
+}
+
+.divTabs,
+.divTabs button {
+font-size: 16px;
+font-family: "skyFontBold";
+font-style: normal;
+text-align: center;
+color: rgba(123, 123, 123, 1);
+justify-content: center;
+border: 0px;
+
+}
+
+.divTabsActive,
+.divTabsActive button {
+font-size: 16px;
+font-family: "skyFontBold";
+font-style: normal;
+text-align: center;
+color: #6e6e6e !important;
+border-top: 0px solid white !important;
+border-left: 0px solid white !important;
+border-right: 0px solid white !important;
+border-bottom: 0px solid white !important;
+text-align: center;
+background: /* gradient can be an image */ linear-gradient(
+    to right,
+    rgba(255, 158, 0, 1) 0.99%,
+    rgba(255, 0, 0, 1) 31.37%,
+    rgba(181, 0, 125, 1) 61.71%,
+    rgba(33, 66, 156, 1) 84.85%,
+    rgba(0, 113, 255, 1) 98.74%
+  )
+  left bottom #fff no-repeat !important;
+background-size: 100% 3px !important; /* if linear-gradient, we need to resize it */
+font-weight: 700;
+}
+
+.tabVideo {
+  margin-right: 20px;
+}
+
+.tabVideo:hover {
+  border: none;
+}
+
+.tabInternet:hover {
+  border: none;
+}

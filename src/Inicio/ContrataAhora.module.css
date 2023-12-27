@@ -1,0 +1,146 @@
+.cuadro {
+    background: linear-gradient(90deg, #000FBE 0%, #000A80 99.88%);
+    height: 300px;
+    border-radius: 0px;
+}
+
+.texto1 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+
+}
+
+.texto2 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.botonblanco {
+    width: 160px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: #000FBE;
+    margin-left: 615px;
+}
+
+
+/*****************************
+Inicia seccion para responsivo
+******************************/
+
+@media (min-width: 376px) and (max-width: 428px) { 
+
+    .texto1{
+        font-size: 6.66vw;
+    }
+
+    .texto2{
+        font-size: 3.88vw;
+        padding: 0 3vw 0 3vw;
+        line-height: 4vw;
+    }
+
+    .botonblanco {
+        width: 100%;
+        height: 12vw;
+        margin-left: 0px;
+    }
+
+    .cardBody{
+        padding-top: 0px;
+        padding-bottom: 0px ;
+    }
+
+    .cuadro{
+        height: 65vw;
+    }    
+}
+
+@media (min-width: 361px) and (max-width: 375px) { 
+
+    .texto1{
+        font-size: 6.66vw;
+    }
+
+    .texto2{
+        font-size: 3.88vw;
+        padding: 0 3vw 0 3vw;
+        line-height: 4vw;
+    }
+
+    .botonblanco {
+        width: 100%;
+        height: 12vw;
+        margin-left: 0px;
+    }
+
+    .cardBody{
+        padding-top: 0px;
+        padding-bottom: 0px ;
+    }
+
+    .cuadro{
+        height: 65vw;
+    }    
+}
+
+@media (min-width: 337px) and (max-width: 360px) { 
+    .texto1{
+        font-size: 6.66vw;
+    }
+
+    .texto2{
+        font-size: 3.88vw;
+        padding: 0 3vw 0 3vw;
+        line-height: 4vw;
+    }
+
+    .botonblanco {
+        width: 100%;
+        height: 12vw;
+        margin-left: 0px;
+    }
+
+    .cardBody{
+        padding-top: 0px;
+        padding-bottom: 0px ;
+    }
+
+    .cuadro{
+        height: 65vw;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 336px) { 
+
+    .texto1{
+        font-size: 6.66vw;
+    }
+
+    .texto2{
+        font-size: 3.88vw;
+        padding: 0 3vw 0 3vw;
+        line-height: 4vw;
+    }
+
+    .botonblanco {
+        width: 100%;
+        height: 12vw;
+        margin-left: 0px;
+    }
+
+    .cardBody{
+        padding-top: 0px;
+        padding-bottom: 0px ;
+    }
+
+    .cuadro{
+        height: 65vw;
+    }    
+}

@@ -1,0 +1,727 @@
+.contenedorModalAviso {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.bodyModalAviso {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.botonCancelarModalAviso {
+  padding: 2em auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 15, 245);
+  width: 30%;
+  margin: auto;
+  border: 0px;
+}
+
+.botonCancelarModalAviso:hover {
+  background-color: transparent;
+  color: rgb(0, 15, 245);
+}
+
+.descripcionModalAviso {
+  font-size: 90%;
+  color: #6E6E6E;
+  text-align: center;
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(90deg,
+      #ff9e00 0%,
+      #ff0000 33.93%,
+      #b5007d 58.36%,
+      #21429c 82.54%,
+      #0071ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contenedor {
+  margin-left: 25px;
+  margin-top: 4vw;
+  margin-bottom: 30px;
+}
+
+.contenedorModal {
+  display: flex;
+  justify-content: center;
+}
+
+.espacioInput {
+  margin-bottom: 0.5vw;
+}
+
+.asterisco {
+  color: red;
+  margin-right: 0.3vw;
+}
+
+.etiqueta {
+  color: #6e6e6e;
+  font-size: 14px;
+}
+
+.avisos {
+  color: #ff0000;
+}
+
+.boton {
+  padding: 2em auto;
+  background-image: linear-gradient(-1deg,
+      transparent 49%,
+      rgba(255, 255, 255, 0.25) 50%,
+      rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg,
+      #000fbe 0%,
+      #3d3de0 50%,
+      #000fbe 57.81%,
+      #000fbe 100%);
+  color: rgb(255, 255, 255);
+
+  margin: auto;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.botonCancelar {
+  padding: 2em auto;
+  background: white;
+  color: #000fbe;
+  margin: auto;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+}
+
+.botonCancelar:hover {
+  color: #3d3de0;
+  background: white;
+}
+
+.boton:hover {
+  background: linear-gradient(180deg,
+      #000fbe 0%,
+      #3d3de0 50%,
+      #000fbe 57.81%,
+      #000fbe 100%);
+  color: rgb(255, 255, 255);
+}
+
+.alineaTerminos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5vw;
+}
+
+.subtituloSmall {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #6e6e6e;
+}
+
+.spectrumSmall {
+  line-height: 30px;
+}
+
+.clausulasLink {
+  color: #000fbe;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.terminosLink {
+  color: #000fbe;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.clausulas {
+  color: #6e6e6e;
+  font-size: 16px;
+}
+
+.informacion {
+  font-size: 32px;
+  color: #6e6e6e;
+}
+
+.colInformacion {
+  background-color: #f6f6f6;
+  height: 5vw;
+
+}
+
+.tituloInformacion {
+  font-size: 28px;
+  color: #6e6e6e;
+  margin-bottom: 0px;
+}
+
+.subtituloInformacion {
+  font-size: 16px;
+  color: #6e6e6e;
+}
+
+.columnaBotonInformacion {
+  padding-left: 0px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.botonInfo {
+  background-image: linear-gradient(-1deg,
+      transparent 49%,
+      rgba(255, 255, 255, 0.25) 50%,
+      rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg,
+      #000fbe 0%,
+      #3d3de0 50%,
+      #000fbe 57.81%,
+      #000fbe 100%);
+  color: rgb(255, 255, 255);
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  height: 40px;
+  font-size: 16px;
+}
+
+.botonInfo:hover {
+  background: linear-gradient(180deg,
+      #000fbe 0%,
+      #3d3de0 50%,
+      #000fbe 57.81%,
+      #000fbe 100%);
+  color: rgb(255, 255, 255);
+}
+
+.textCard {
+  font-size: 16px;
+  color: #6e6e6e;
+  margin-bottom: 0.5vw;
+}
+
+.columnaCardInformacion {
+  padding-right: 150px;
+}
+
+.card {
+  padding: 1vw;
+}
+
+.aviso {
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+.tituloModal {
+  font-size: 32px;
+  color: #6e6e6e;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.subtituloModal {
+  font-size: 16px;
+  color: #6e6e6e;
+  text-align: center;
+}
+
+.link {
+  color: #000fbe;
+  padding-left: 3px;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.contenedorColumna {
+  background-color: #f6f6f6;
+  height: 136px;
+  padding-left: 3vw;
+  display: flex;
+  align-items: center;
+}
+
+.separadorColumna {
+  padding-left: 38px;
+}
+
+/******************************
+Inicia seccion para responsivo
+*******************************/
+@media (max-width: 1440px) {
+  .informacion {
+    width: 92%;
+    line-height: 40px;
+  }
+
+  .colInformacion {
+    width: 100%;
+    height: 8vw;
+    /* margin-right: 10vw; */
+  }
+}
+
+@media (max-width: 992px) {
+  .contenedor {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin-top: 4vw;
+  }
+
+  .spectrumSmall {
+    font-size: 7.77vw;
+    margin-bottom: 0px;
+  }
+
+  .subtituloSmall {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+
+  .formSmall {
+    margin-top: 5vw;
+  }
+
+  .separaInputSmall {
+    margin-bottom: 4vw;
+  }
+
+  .alineaTerminos {
+    font-size: 3.88vw;
+    color: #6e6e6e;
+  }
+
+  .boton {
+    width: 95%;
+    margin-bottom: 6vw;
+  }
+
+  .spectrum {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+
+  .clausulas {
+    font-size: 14px;
+  }
+
+  .clausulasLink {
+    font-size: 14px;
+  }
+
+  .informacion {
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 3vw;
+    padding-right: 4vw;
+  }
+
+  .tituloInformacion {
+    font-size: 20px;
+    margin-top: 5vw;
+  }
+
+  .columnaCardInformacion {
+    padding-right: 15px;
+  }
+
+  .columnaBotonInformacion {
+    padding-right: 15px;
+    margin-top: 6vh;
+  }
+
+  .card {
+    line-height: 30px;
+    padding: 25px;
+  }
+
+  .aviso {
+    text-align: center;
+    margin: 4vw 0 4vw 0;
+  }
+
+  .botonInfo {
+    width: 100%;
+    margin-bottom: 4vw;
+  }
+
+  .informacion {
+    width: 100%;
+  }
+
+  .colInformacion {
+    margin-left: -22px;
+    margin-right: -22px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 428px) {
+  .contenedor {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 4vw;
+  }
+
+  .spectrumSmall {
+    font-size: 7.77vw;
+    margin-bottom: 0px;
+  }
+
+  .subtituloSmall {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+
+  .formSmall {
+    margin-top: 5vw;
+  }
+
+  .separaInputSmall {
+    margin-bottom: 4vw;
+  }
+
+  .alineaTerminos {
+    font-size: 3.88vw;
+    color: #6e6e6e;
+  }
+
+  .boton {
+    width: 95%;
+    margin-bottom: 6vw;
+  }
+
+  .spectrum {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+
+  .clausulas {
+    font-size: 14px;
+  }
+
+  .clausulasLink {
+    font-size: 14px;
+  }
+
+  .informacion {
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 3vw;
+    padding-right: 4vw;
+  }
+
+  .tituloInformacion {
+    font-size: 20px;
+    margin-top: 5vw;
+  }
+
+  .columnaCardInformacion {
+    padding-right: 15px;
+  }
+
+  .columnaBotonInformacion {
+    padding-right: 15px;
+  }
+
+  .card {
+    line-height: 30px;
+    padding: 25px;
+  }
+
+  .aviso {
+    text-align: center;
+    margin: 4vw 0 4vw 0;
+  }
+
+  .botonInfo {
+    width: 100%;
+    margin-bottom: 4vw;
+  }
+
+  .informacion {
+    width: 100%;
+  }
+
+  .colInformacion {
+    height: 35vw;
+
+    margin-left: -22px;
+    margin-right: -22px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .contenedorColumna {
+    font-size: 24px;
+    padding-left: 11vw;
+    padding-right: 7vw;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 375px) {
+  .contenedor {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 4vw;
+  }
+
+  .spectrumSmall {
+    font-size: 7.77vw;
+    margin-bottom: 0px;
+  }
+
+  .subtituloSmall {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+
+  .formSmall {
+    margin-top: 5vw;
+  }
+
+  .separaInputSmall {
+    margin-bottom: 4vw;
+  }
+
+  .alineaTerminos {
+    font-size: 3.88vw;
+    color: #6e6e6e;
+  }
+
+  .boton {
+    width: 95%;
+    margin-bottom: 6vw;
+  }
+
+  .spectrum {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+
+  .clausulas {
+    font-size: 14px;
+  }
+
+  .clausulasLink {
+    font-size: 14px;
+  }
+
+  .informacion {
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 3vw;
+    padding-right: 4vw;
+  }
+
+  .tituloInformacion {
+    font-size: 20px;
+    margin-top: 5vw;
+  }
+
+  .columnaCardInformacion {
+    padding-right: 15px;
+  }
+
+  .columnaBotonInformacion {
+    padding-right: 15px;
+  }
+
+  .card {
+    line-height: 30px;
+    padding: 25px;
+  }
+
+  .aviso {
+    text-align: center;
+    margin: 4vw 0 4vw 0;
+  }
+
+  .botonInfo {
+    width: 100%;
+    margin-bottom: 4vw;
+  }
+
+  .informacion {
+    width: 100%;
+  }
+
+  .colInformacion {
+    height: 50vw;
+  }
+
+  .contenedorColumna {
+    font-size: 24px;
+    padding-left: 11vw;
+    padding-right: 7vw;
+  }
+}
+
+@media (min-width: 337px) and (max-width: 360px) {
+  .contenedor {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 4vw;
+  }
+
+  .spectrumSmall {
+    font-size: 7.77vw;
+    margin-bottom: 0px;
+  }
+
+  .subtituloSmall {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+
+  .formSmall {
+    margin-top: 5vw;
+  }
+
+  .separaInputSmall {
+    margin-bottom: 4vw;
+  }
+
+  .alineaTerminos {
+    font-size: 3.88vw;
+    color: #6e6e6e;
+  }
+
+  .boton {
+    width: 95%;
+    margin-bottom: 6vw;
+  }
+
+  .spectrum {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+
+  .clausulas {
+    font-size: 14px;
+  }
+
+  .clausulasLink {
+    font-size: 14px;
+  }
+
+  .informacion {
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 3vw;
+    padding-right: 4vw;
+    width: 100%;
+    margin-bottom: 0px;
+
+  }
+
+  .tituloInformacion {
+    font-size: 20px;
+    margin-top: 5vw;
+  }
+
+  .columnaCardInformacion {
+    padding-right: 15px;
+  }
+
+  .columnaBotonInformacion {
+    padding-right: 15px;
+  }
+
+  .card {
+    line-height: 30px;
+    padding: 25px;
+  }
+
+  .aviso {
+    text-align: center;
+    margin: 4vw 0 4vw 0;
+  }
+
+  .botonInfo {
+    width: 100%;
+    margin-bottom: 4vw;
+  }
+
+  .contenedorColumna {
+    font-size: 24px;
+    padding-left: 11vw;
+    padding-right: 7vw;
+  }
+
+}
+
+@media (min-width: 319px) and (max-width: 336px) {
+  .contenedor {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin-top: 4vw;
+  }
+
+  .spectrumSmall {
+    font-size: 7.77vw;
+    margin-bottom: 0px;
+  }
+
+  .subtituloSmall {
+    font-size: 3.88vw;
+  }
+
+  .formSmall {
+    margin-top: 5vw;
+  }
+
+  .separaInputSmall {
+    margin-bottom: 4vw;
+  }
+
+  .alineaTerminos {
+    font-size: 3.88vw;
+    color: #6e6e6e;
+  }
+
+  .boton {
+    width: 95%;
+    margin-bottom: 6vw;
+  }
+
+  .contenedorColumna {
+    font-size: 24px;
+    padding-left: 11vw;
+    padding-right: 7vw;
+  }
+}

@@ -1,0 +1,372 @@
+
+.headerRow {
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.subheaderRow {
+  padding-right: 100px;
+  padding-top: 0px;
+}
+
+.subheaderRowTitle {
+  padding-right: 0px;
+  padding-top: 15px;
+}
+
+.textAreaCounter {
+  display: flex;
+  margin-top: -5px;
+  justify-content: flex-end;
+  font-family: skyFont !important;
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.asterisco {
+  color: red;
+}
+
+.imagesRow {
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 10px;
+  display: flex;
+}
+
+.imagesCol {
+  width: 140px;
+}
+
+.spectrum {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  /* Spectrum */
+
+  background: linear-gradient(
+    90deg,
+    #ff9e00 0%,
+    #ff0000 33.93%,
+    #b5007d 58.36%,
+    #21429c 82.54%,
+    #0071ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-left: 50px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.title {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #6e6e6e;
+}
+
+.subtitleHeader {
+  color: #6e6e6e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.subtitle1 {
+  color: var(--DARK-GRAY-OFFICIAL, #6e6e6e);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.optionList {
+  color: var(--DARK-GRAY-OFFICIAL, #6e6e6e);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.subtitle {
+  color: var(--DARK-GRAY-OFFICIAL, #6e6e6e);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button {
+  font-family: "skyFontRegular";
+  color: rgb(255, 255, 255) !important;
+  text-align: center;
+  width: 171px;
+  height: 40px;
+  background: linear-gradient(
+    180deg,
+    #000fbe 0%,
+    #3d3de0 50%,
+    #000fbe 57.81%,
+    #000fbe 100%
+  );
+  border-radius: 6px;
+  margin-bottom: 51px;
+  border: 0px;
+  margin: 0 10px;
+}
+
+.buttonWhite {
+  font-family: "skyFontRegular";
+  color: #3d3de0;
+  background: rgb(255, 255, 255) !important;
+  text-align: center;
+  width: 125px;
+  height: 40px;
+  border-radius: 6px;
+  border-top-left-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+  margin-bottom: 51px;
+
+  margin-left: 10px !important;
+  margin-bottom: 0;
+  border: solid 2px #3d3de0;
+  border-radius: 6px !important;
+}
+
+.titleCard {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  color: #6e6e6e;
+}
+
+.titleCardBold {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  color: #6e6e6e;
+}
+
+.modalTitle {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #6e6e6e;
+}
+
+.modalSubtitle {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #6e6e6e;
+}
+
+.createButton {
+  color: rgb(255, 255, 255) !important;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 193px !important;
+  height: 38px;
+  background: linear-gradient(
+    180deg,
+    #000fbe 0%,
+    #3d3de0 50%,
+    #000fbe 57.81%,
+    #000fbe 100%
+  );
+  border-radius: 6px;
+  margin-top: 10px;
+  width: fit-content;
+  font-family: skyFont;
+  display: flex;
+  justify-content: center;
+}
+
+.cancelButton {
+  color: #000fbe;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 62px !important;
+  height: 18px;
+  background: none;
+  border: 0px;
+  border-radius: 6px;
+  margin-top: 10px;
+  width: fit-content;
+  font-family: skyFont;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+
+.cancelButton:hover {
+  background-color: white;
+  color: #000fbe;
+}
+.asterisco {
+  color: #f00707;
+}
+
+.textoobigatorio {
+  margin-bottom: 1%;
+}
+
+.divButton {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.form {
+  width: 100%;
+  color: #6e6e6e;
+}
+
+.form > div > select,
+.form > div > select > option {
+  width: 100%;
+  color: #6e6e6e;
+}
+
+.mynewbgcolor {
+  background: #F6F6F6;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-top: 30px;
+}
+
+.adjuntarContainer {
+  padding-right: 0px;
+  padding-left: 13px;
+}
+
+.aclararContainer {
+  padding-left: 0px;
+}
+@media screen and (max-width: 992px) {
+  .button {
+    width: 100%;
+  }
+
+  .headerRow,
+  .subheaderRow,
+  .subheaderRowTitle {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .createButton {
+    width: 100% !important;
+  }
+
+  .alert {
+    left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 3;
+  }
+
+  .spectrum {
+    font-size: 28px;
+    margin-left: 20px;
+  }
+
+  .headerRow {
+    padding-top: 20px;
+  }
+
+  .subtitleHeader {
+    line-height: normal;
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+
+  .subtitle {
+    color: var(--DARK-GRAY-OFFICIAL, #6e6e6e);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+  }
+
+  .subtitle1 {
+    color: var(--DARK-GRAY-OFFICIAL, #6e6e6e);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 20px;
+  }
+
+
+
+  .subheaderRowTitle {
+    padding-top: 10px;
+  }
+
+  .mynewbgcolor {
+    margin-top: 10px;
+  }
+
+  .button {
+
+    margin-bottom: 20px;
+  }
+
+  .pl-50 {
+    padding-left: 10px!important;
+  }
+
+  .ml-50{
+    margin-left: 10px!important;
+    padding-left: calc(var(--bs-gutter-x) * .5)!important;
+  }
+
+  .button {
+margin-left: -5px;
+  }
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.ml-50{
+  margin-left: 50px;
+  padding-left: 0;
+}

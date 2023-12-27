@@ -1,0 +1,152 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@font-face {
+  font-family: skyFont;
+  src: url(assets/fonts/SkyText.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: skyFontBold;
+  src: url(assets/fonts/SkyTextMedium.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: skyFontItalic;
+  src: url(assets/fonts/SkyTextItalic.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: skyFontLight;
+  src: url(assets/fonts/SkyTextLight.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: skyFontRegular;
+  src: url(assets/fonts/SkyTextRegular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: SkyRegular;
+  src: url(assets/fonts/SkyTextRegular.ttf);
+}
+
+@font-face {
+  font-family: SkyBold;
+  src: url(assets/fonts/SkyTextMedium.ttf);
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: skyFont !important;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: skyFont !important;
+}
+
+h1,
+h2 {
+  font-size: 3em;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2.1em;
+}
+.gris-oscuro {
+  color: #6e6e6e !important;
+}
+.gris-claro {
+  color: #9d9d9d;
+}
+
+.textoSpectrum {
+  /* Spectrum */
+  background: linear-gradient(
+    90deg,
+    #ff9e00 0%,
+    #ff0000 33.93%,
+    #b5007d 58.36%,
+    #21429c 82.54%,
+    #0071ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+b,
+strong {
+  font-weight: 500;
+  font-family: skyBold;
+}
+
+#pageContent {
+  overflow-x: hidden;
+}
+
+.pr-5{
+  padding-right: 5px;
+}
+
+/*Resposivo*/
+@media screen and (min-width: 576px) {
+  #pageContent {
+      display: block !important;
+      padding-right: 0px;
+      overflow-x: hidden;
+  }
+  :root {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  #pageContent {
+      display: block !important;
+      padding-right: 0px;
+      overflow-x: hidden;
+  }
+  :root {
+    overflow-x: hidden;
+  }
+}
+
+
+@media screen and (min-width: 375px) {
+  #pageContent {
+      display: block !important;
+      padding-right: 0px;
+      overflow-x: hidden;
+  }
+  :root {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  #pageContent {
+      display: block !important;
+      padding-right: 0px;
+      overflow-x: hidden;
+  }
+  :root {
+    overflow-x: hidden;
+  }
+}
+
+
+
+

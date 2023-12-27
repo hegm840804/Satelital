@@ -1,0 +1,327 @@
+.parrafoSpectrum {
+    width: 20% !important;
+}
+
+.spectrum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 40px;
+
+    /* Spectrum */
+
+    background-image: linear-gradient(90deg, #FF9E00 0%, #FF0000 33.93%, #B5007D 58.36%, #21429C 82.54%, #0071FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 28px;
+    color: #6E6E6E;
+}
+
+.spectrumSmall {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 40px;
+
+    /* Spectrum */
+
+    background: linear-gradient(90deg, #FF9E00 0%, #FF0000 33.93%, #B5007D 58.36%, #21429C 82.54%, #0071FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.spectrum2Small {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 40px;
+
+    /* Spectrum */
+
+    background: linear-gradient(90deg, #FF9E00 0%, #FF0000 33.93%, #B5007D 58.36%, #21429C 82.54%, #0071FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.contenedor {
+    position: relative;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.cuadroTexto {
+    width: 45vw;
+    position: absolute;
+    top: 5.2vw;
+    left: 4vw;
+}
+
+.titulo {
+    font-size: 1.6666666666666667vw;
+    color: #fff;
+    font-weight: 600;
+}
+
+.info {
+    font-size: 1.1vw;
+    line-height: 110%;
+    color: #fff;
+    font-weight: 100;
+}
+
+.boton {
+    font-size: 16px;
+    background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 120px;
+    border: 0px;
+}
+
+.boton:hover {
+    font-size: 16px;
+    background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 120px;
+}
+
+
+.imagen {
+    display: block;
+    width: 100%;
+}
+
+/*Estilos para la pagina PagoPorEvento.js*/
+
+.tituloPagina {
+    font-size: 2.5vw;
+    color: #6E6E6E;
+    margin-top: 4vw;
+}
+
+.subtituloPagina {
+    font-size: 18px;
+    color: #6E6E6E;
+}
+
+
+@media screen and (max-width: 1550px) {
+    .spectrum, .subtituloPagina, .subtitle {
+        padding-left: 2%;
+    }
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .spectrum, .subtituloPagina, .subtitle {
+        padding-left: 5%;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {}
+
+@media (min-width: 768px) and (max-width: 990.5px) {
+    .contenedor {}
+
+    .titulo {
+        font-size: 3.5vmax;
+        color: #6E6E6E;
+
+    }
+
+
+    .info {
+        font-size: 1.3vmax;
+        line-height: 1.5vmax;
+        color: #6E6E6E;
+    }
+
+    .imagenSmall {
+        width: 100%;
+        height: auto;
+
+    }
+
+}
+
+@media (min-width: 375.5px) and (max-width: 425px) {
+    .contenedorSmall {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 6vw;
+    }
+
+    .titulo {
+        font-size: 6vw;
+        color: #6E6E6E;
+        padding: 0 6vw 0 6vw;
+        margin-top: 4vw;
+
+    }
+
+
+    .info {
+        font-size: 3.88vw;
+        line-height: 5.5vw;
+        color: #6E6E6E;
+        padding: 0 6.66vw 0 6.66vw;
+    }
+
+    .imagenSmall {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .boton {
+        font-size: 4.5vw;
+        background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+        color: rgb(255, 255, 255);
+        width: 100%;
+
+    }
+
+    .contenedorBoton {
+        padding: 0 6.66vw 0 6.66vw;
+    }
+
+    .tituloPagina {
+        font-size: 8vw;
+        padding-left: 5vw;
+    }
+
+    .subtituloPagina {
+        font-size: 3.8vw;
+        padding-left: 5vw;
+        padding-right: 4vw;
+    }
+}
+
+@media (min-width: 360.5px) and (max-width: 375px) {
+    .contenedorSmall {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 6vw;
+    }
+
+    .titulo {
+        font-size: 6vw;
+        color: #6E6E6E;
+        padding: 0 6vw 0 6vw;
+        margin-top: 4vw;
+
+    }
+
+
+    .info {
+        font-size: 3.88vw;
+        line-height: 5.5vw;
+        color: #6E6E6E;
+        padding: 0 6.66vw 0 6.66vw;
+    }
+
+    .imagenSmall {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .boton {
+        font-size: 4.5vw;
+        background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+        color: rgb(255, 255, 255);
+        width: 100%;
+
+    }
+
+    .contenedorBoton {
+        padding: 0 6.66vw 0 6.66vw;
+    }
+
+    .tituloPagina {
+        font-size: 8vw;
+        padding-left: 5vw;
+    }
+
+    .subtituloPagina {
+        font-size: 3.8vw;
+        padding-left: 5vw;
+        padding-right: 4vw;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+    .contenedorSmall {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 6vw;
+    }
+
+    .titulo {
+        font-size: 6vw;
+        color: #6E6E6E;
+        padding: 0 6vw 0 6vw;
+        margin-top: 4vw;
+
+    }
+
+
+    .info {
+        font-size: 3.88vw;
+        line-height: 5.5vw;
+        color: #6E6E6E;
+        padding: 0 6.66vw 0 6.66vw;
+    }
+
+    .imagenSmall {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .boton {
+        font-size: 4.5vw;
+        background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+        color: rgb(255, 255, 255);
+        width: 100%;
+
+    }
+
+    .contenedorBoton {
+        padding: 0 6.66vw 0 6.66vw;
+    }
+
+    .tituloPagina {
+        font-size: 8vw;
+        padding-left: 5vw;
+    }
+
+    .subtituloPagina {
+        font-size: 16px;
+        padding-left: 5vw;
+        padding-right: 4vw;
+        line-height: 20px;
+    }
+
+    .spectrumSmall {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 0px
+    }
+
+}

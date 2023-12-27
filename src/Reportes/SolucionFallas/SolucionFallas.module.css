@@ -1,0 +1,457 @@
+.headerRow {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subheaderRowDesc {
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+.subheaderRow {
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.subheaderRowGrid {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.asterisco {
+  color: red;
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(
+    90deg,
+    #ff9e00 0%,
+    #ff0000 33.93%,
+    #b5007d 58.36%,
+    #21429c 82.54%,
+    #0071ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #6e6e6e;
+}
+
+.subtitle {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: -10px;
+  color: #6e6e6e;
+}
+
+.titleBanner {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+.subtitleBanner {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.tabs {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #6e6e6e;
+  display: flex;
+}
+
+.button {
+  font-family: "skyFontRegular";
+  color: rgb(255, 255, 255) !important;
+  text-align: center;
+  width: 192px;
+  height: 40px;
+  background: linear-gradient(
+    180deg,
+    #000fbe 0%,
+    #3d3de0 50%,
+    #000fbe 57.81%,
+    #000fbe 100%
+  );
+  border-radius: 6px;
+  margin-bottom: 21px;
+}
+
+.buttonBanner {
+  font-family: "skyFontRegular";
+  color: #000fbe !important;
+  font-weight: 700;
+  text-align: center;
+  width: 192px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+.buttonBanner:hover {
+  
+  color: #000fbe !important;
+  
+  background: #ffffff;
+ 
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #000fbe 0%, #000a80 99.88%);
+  margin-bottom: 50px;
+}
+
+.modalContainer {
+  width: 80%;
+}
+
+.modalTitle {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+  color: #6e6e6e;
+  margin-bottom: 40px;
+}
+
+.modalSubtitle {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  text-align: justify;
+  color: #6e6e6e;
+}
+
+.modalSubtitleFoot {
+  margin-bottom: 40px !important;
+}
+
+.detallesButton {
+  color: #000fbe;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  background: none;
+  border: 0px;
+  border-radius: 6px;
+  width: 100%;
+  font-family: skyFont;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  align-content: center;
+}
+
+.detallesButton:hover {
+  background-color: transparent;
+  color: #000fbe;
+}
+
+.divButton {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.exclamation {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+}
+
+.historialGrid > div > div {
+  border: 1px solid #ced4da;
+}
+
+.historialGrid {
+  margin-bottom: 50px;
+}
+
+.gridHeader {
+  font-weight: 700;
+  color: #6e6e6e;
+  font-size: 18px;
+  font-family: skyFont;
+}
+
+.grid > div > span {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  font-size: 16px;
+  font-family: skyFont;
+}
+
+.alignToLeft {
+  justify-content: flex-start !important;
+  display: flex !important;
+  padding-left: 25px;
+}
+
+.alignToRight {
+  justify-content: flex-end !important;
+  display: flex !important;
+  padding-right: 25px;
+}
+
+.grid:nth-of-type(even) {
+  background-color: #f2f2f2;
+}
+
+.grid:nth-of-type(odd) {
+  background-color: white;
+}
+
+.divTabs button {
+  border: none;
+}
+
+.divTabs button:hover {
+  font-size: 16px;
+  font-family: "skyFontBold";
+  font-style: normal;
+  text-align: center;
+  color: #6e6e6e !important;
+  background:
+      /* gradient can be an image */ linear-gradient(
+      to right,
+      rgba(255, 158, 0, 1) 0.99%,
+      rgba(255, 0, 0, 1) 31.37%,
+      rgba(181, 0, 125, 1) 61.71%,
+      rgba(33, 66, 156, 1) 84.85%,
+      rgba(0, 113, 255, 1) 98.74%
+    )
+    left bottom #fff no-repeat;
+  background-size: 100% 3px;
+  border: 0px solid white !important;
+  /* if linear-gradient, we need to resize it */
+  font-weight: 700;
+}
+
+.divTabsActive,
+.divTabsActive button {
+  font-size: 16px;
+  font-family: "skyFontBold";
+  font-style: normal;
+  text-align: center;
+  color: #6e6e6e !important;
+  border-top: 0px solid white !important;
+  border-left: 0px solid white !important;
+  border-right: 0px solid white !important;
+  border-bottom: 0px solid white !important;
+  text-align: center;
+  background: /* gradient can be an image */ linear-gradient(
+      to right,
+      rgba(255, 158, 0, 1) 0.99%,
+      rgba(255, 0, 0, 1) 31.37%,
+      rgba(181, 0, 125, 1) 61.71%,
+      rgba(33, 66, 156, 1) 84.85%,
+      rgba(0, 113, 255, 1) 98.74%
+    )
+    left bottom #fff no-repeat !important;
+  background-size: 100% 3px !important; /* if linear-gradient, we need to resize it */
+  font-weight: 700;
+}
+
+.divTabs,
+.divTabs button {
+  font-size: 16px;
+  font-family: "skyFontBold";
+  font-style: normal;
+  text-align: center;
+  color: rgba(123, 123, 123, 1);
+  justify-content: center;
+  border: 0px;
+}
+
+.tabContainer {
+  margin-top: 30px;
+}
+
+.solutionContainer {
+  color: #6e6e6e;
+  font-family: skyFont;
+  border: 1px solid #ced4da;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .divTabs button:hover,
+  .divTabsActive,
+  .divTabsActive button,
+  .divTabs,
+  .divTabs button {
+    color: #000fbe !important;
+  }
+
+  .subheaderRowDesc {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .subheaderRow {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .title {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .headerRow {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tabVideo {
+    margin-right: 20px;
+  }
+
+  .tabInternet {
+    margin-left: 20px;
+  }
+
+  .divTabs > li {
+    border: 0;
+  }
+
+  .solutionContainer > ul > li {
+    border: 0;
+  }
+
+  .solutionContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .subheaderRowDescSmall {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .subtitleBannerContainer {
+    width: 90%;
+  }
+
+  .buttonBanner {
+    width: 95%;
+  }
+
+  .buttonBannerContainer {
+    width: 100%;
+  }
+
+  .buttonBannerContainer > div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .tabVideo {
+    margin-right: 0px;
+  }
+
+  .tabInternet {
+    margin-left: 0px;
+  }
+
+  .divTabs > li {
+    border: 0;
+  }
+
+  .solutionContainer > ul > li {
+    border: 0;
+  }
+
+  .solutionContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .subheaderRowDescSmall {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .subtitleBannerContainer {
+    width: 90%;
+  }
+
+  .buttonBanner {
+    width: 95%;
+  }
+
+  .buttonBannerContainer {
+    width: 100%;
+  }
+
+  .buttonBannerContainer > div {
+    display: flex;
+    justify-content: center;
+  }
+}

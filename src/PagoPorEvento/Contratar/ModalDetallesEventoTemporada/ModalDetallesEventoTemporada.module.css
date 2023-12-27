@@ -1,0 +1,125 @@
+.contenedor{
+    display: flex;
+    flex-direction: row; 
+    padding-top: 0px;
+    padding-left: 3%;
+    padding-bottom: 5%;
+}
+
+.titulo{
+    color: #000FBE;
+    font-size: 28px;
+}
+
+.boton{
+    width: 100%;
+    padding :2em auto;
+    background-image: linear-gradient(-1deg,transparent 49%,
+    rgba(255,255,255,0.25)50%,
+    rgba(255,255,255,0));
+    background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+    color:rgb(255,255,255);
+
+}
+
+.info{
+    color: #6E6E6E;
+    text-align: justify;
+    line-height: 1.2;
+    padding:0 3% 3% 0;
+}
+
+.descripcion{
+    font-size: 90%;
+}
+
+.img{
+    width: 100%;
+    display: block;
+    border-radius:1vw;
+}
+
+.select{
+    font-size: 14px;
+    height: 40px;
+}
+
+.selectTarjeta{
+    height: 40px;
+    font-size: 14px;
+}
+
+
+
+
+/*Inicia estilos responsivos*/
+
+@media (min-width: 376px) and (max-width: 428px) { 
+    .titulo{
+        margin-top: 5vw;
+    }
+
+    .boton{
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .contenedor{
+        padding-left: 4%;
+    }
+
+    .info{
+        padding-right: 0px;
+    }
+
+    .colSelect{
+        margin-bottom: 3%;
+    }
+
+}
+
+
+@media (min-width: 361px) and (max-width: 375px) { 
+    .titulo{
+        margin-top: 5vw;
+    }
+
+    .boton{
+        width: 100%;
+    }
+
+    .contenedor{
+        padding-left: 5%;
+    }
+
+    .info{
+        padding-right: 0px;
+    }
+
+    .colSelect{
+        margin-bottom: 3%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 360px) { 
+    .titulo{
+        margin-top: 5vw;
+    }
+
+    .boton{
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .contenedor{
+        padding-left: 4.8%;
+    }
+
+    .info{
+        padding-right: 0px;
+    }
+
+    .colSelect{
+        margin-bottom: 3%;
+    }
+}

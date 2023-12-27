@@ -1,0 +1,382 @@
+.messageStyle{
+  margin-left: 25%;
+  
+}
+
+.headerRow {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subheaderRow {
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.subheaderRowCampos {
+  padding-left: 50px;
+  padding-right: 100px;
+  margin-top: -1vw;
+  margin-bottom: 1vw;
+}
+
+
+.subheaderRowTitle {
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.textAreaCounter {
+  display: flex;
+  justify-content: flex-end;
+  font-family: skyFont !important;
+  font-size: 16px;
+  color: #7b7b7b;
+  margin-top: -20px;
+
+}
+
+.asterisco {
+  color: red;
+}
+
+.imagesRow {
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 10px;
+  display: flex;
+}
+
+.imagesCol {
+  width: 140px;
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background: linear-gradient(
+    90deg,
+    #ff9e00 0%,
+    #ff0000 33.93%,
+    #b5007d 58.36%,
+    #21429c 82.54%,
+    #0071ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #6e6e6e;
+}
+
+.subtitle {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: -10px;
+  color: #6e6e6e;
+}
+
+.subtitleBigText {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: -10px;
+  padding-left: 1.5%;
+  padding-right: 5%;
+  color: #6e6e6e;
+}
+
+.subtitleBackground {
+  background-color: #f7f7f7;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button {
+  font-family: "skyFontRegular";
+  color: rgb(255, 255, 255) !important;
+  text-align: center;
+  /* width: 182px !important; */
+  width: 15%;
+  height: 40px;
+  background: linear-gradient(
+    180deg,
+    #000fbe 0%,
+    #3d3de0 50%,
+    #000fbe 57.81%,
+    #000fbe 100%
+  );
+  border-radius: 6px;
+  margin-bottom: 51px;
+  margin-top: 10px;
+}
+
+.titleCard {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  color: #6e6e6e;
+}
+
+.titleCardBold {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  color: #6e6e6e;
+}
+
+.modalTitle {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #6e6e6e;
+}
+
+.modalSubtitle {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #6e6e6e;
+}
+
+.createButton {
+  color: rgb(255, 255, 255) !important;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 164px !important;
+  height: 38px;
+  background: linear-gradient(
+    180deg,
+    #000fbe 0%,
+    #3d3de0 50%,
+    #000fbe 57.81%,
+    #000fbe 100%
+  );
+  border-radius: 6px;
+  margin-top: 10px;
+  width: fit-content;
+  font-family: skyFont;
+  display: flex;
+  justify-content: center;
+}
+
+.cancelButton {
+  color: #000fbe;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 62px !important;
+  height: 18px;
+  background: none;
+  border: 0px;
+  border-radius: 6px;
+  margin-top: 10px;
+  width: fit-content;
+  font-family: skyFont;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+
+.cancelButton:hover {
+  background-color: white;
+  color: #000fbe;
+}
+
+.divButton {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.form {
+  width: 100%;
+  color: #6e6e6e;
+}
+
+.form > div > select,
+.form > div > select > option {
+  width: 100%;
+  color: #6e6e6e;
+}
+
+@media screen and (max-width: 576px) {
+
+  .spectrum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  
+    /* Spectrum */
+  
+    background: linear-gradient(
+      90deg,
+      #ff9e00 0%,
+      #ff0000 33.93%,
+      #b5007d 58.36%,
+      #21429c 82.54%,
+      #0071ff 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .button {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .headerRow,
+  .subheaderRow,
+  .subheaderRowTitle {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: -20px;
+  }
+
+  .createButton {
+    width: 100% !important;
+  }
+
+  .subtitle{
+    font-size: 16px;
+    margin-top: -20px;
+  }
+  .textAreaCounter {
+    margin-top: -20px;
+  }
+  .button {
+    font-family: "skyFontRegular";
+    color: rgb(255, 255, 255) !important;
+    text-align: center;
+    width: 100% !important;
+    height: 40px;
+    background: linear-gradient(
+      180deg,
+      #000fbe 0%,
+      #3d3de0 50%,
+      #000fbe 57.81%,
+      #000fbe 100%
+    );
+    border-radius: 6px;
+    margin-bottom: 51px;
+    margin-top: -10px;
+  }
+  
+ 
+}
+
+@media screen and (max-width: 991px) {
+  .messageStyle{
+    margin-left: 10%;
+ }
+}
+
+@media screen and (max-width: 425px) {
+  .button{
+    width: 100%;
+  }
+  
+  .headerRow{
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .subheaderRowCampos{
+    padding-left: 37px;
+    padding-right: 37px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .button{
+    width: 100%;
+  }
+  
+  .headerRow{
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .subheaderRowCampos{
+    padding-left: 37px;
+    padding-right: 37px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .button{
+    width: 100%;
+  }
+  
+  .headerRow{
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .subheaderRowCampos{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button{
+    width: 100%;
+  }
+  
+  .headerRow{
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .subheaderRowCampos{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

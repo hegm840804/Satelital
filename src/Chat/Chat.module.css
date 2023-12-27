@@ -1,0 +1,173 @@
+.spectrum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 40px;
+    
+    /* Spectrum */
+    
+    background-image: linear-gradient(90deg, #FF9E00 0%, #FF0000 33.93%, #B5007D 58.36%, #21429C 82.54%, #0071FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+.contenedor{
+    padding: 2.5vw 8vw 8vw 1vw;
+}
+
+.titulo{
+    font-size: 2.5vw;
+}
+
+.subtitulo{
+    color: #6E6E6E;
+    font-size: 18px;
+    
+}
+
+.boton{
+    padding :2em auto;
+    background-image: linear-gradient(-1deg,transparent 49%,
+    rgba(255,255,255,0.25)50%,
+    rgba(255,255,255,0));
+    background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+    color:rgb(255,255,255);
+    width: 25%;
+    margin: auto;
+}
+
+.enlacePreguntas{
+    font-size: 1.11vw;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.select{
+    color: #6E6E6E;
+    font-size: 1.25vw;
+}
+
+.campos{
+    font-size: 1.11vw;
+}
+
+.asterisco{
+    color: red;
+}
+
+.separacionBoton{
+    margin-top: 3vw;
+}
+
+/*inicia responsivo*/
+
+@media (min-width: 376px) and (max-width: 425px) { 
+    .titulo{
+        font-size: 7vw;
+    }
+
+    .subtitulo{
+        color: #6E6E6E;
+        font-size: 4vw;
+        
+    }    
+
+    .select{
+        font-size: 4.5vw;
+    }    
+
+    .campos{
+        font-size: 4vw;
+    }    
+
+    .enlacePreguntas{
+        font-size: 4vw;
+        margin-top: 4vw;
+    }    
+
+    .boton{
+        width: 95%;
+    }
+
+    .separacionBoton{
+        margin-top: 8vw;
+    }    
+}
+
+
+@media (min-width: 361px) and (max-width: 375px) { 
+    .titulo{
+        font-size: 7.46vw;
+    }
+
+    .subtitulo{
+        color: #6E6E6E;
+        font-size: 4.26vw;
+        
+    }    
+
+    .select{
+        font-size: 4.8vw;
+    }    
+
+    .campos{
+        font-size: 4.26vw;
+    }    
+
+    .enlacePreguntas{
+        font-size: 4.26vw;
+        margin-top: 3.5vw;
+    }    
+
+    .boton{
+        width: 95%;
+    }
+
+    .separacionBoton{
+        margin-top: 8vw;
+    }    
+}
+
+
+@media (min-width: 320px) and (max-width: 360px) { 
+    .titulo{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .subtitulo{
+        color: #6E6E6E;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 8px;
+        
+    }    
+
+    .select{
+        font-size: 5vw;
+    }    
+
+    .campos{
+        font-size: 4.44vw;
+    }    
+
+    .enlacePreguntas{
+        font-size: 4.44vw;
+        margin-top: 3vw;
+    }    
+
+    .boton{
+        width: 95%;
+    }
+
+    .separacionBoton{
+        margin-top: 6vw;
+    }
+    
+    .contenedor{
+        margin-top: 4vw;
+        padding: 0 6vw 0 6vw;
+    }
+}

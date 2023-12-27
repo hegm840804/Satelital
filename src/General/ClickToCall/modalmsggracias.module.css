@@ -1,0 +1,44 @@
+.header{
+    border: 0;
+}
+.cardNotBorder{
+    border: 0;
+}
+.firstLine{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+.botonazul {
+    width: 100%;
+    height: 40px;
+  
+    font-size: 16px;
+    font-weight: 500 !important;
+    /* BOTON PRIMARIO MY SKY */
+    background: linear-gradient(180deg,
+        #000fbe 0%,
+        #3d3de0 50%,
+        #000fbe 57.81%,
+        #000fbe 100%);
+    border-radius: 6px;
+  }
+  
+  .botonazul:hover {
+    background: linear-gradient(180deg,
+        #000fbe 0%,
+        #3d3de0 50%,
+        #000fbe 57.81%,
+        #000fbe 100%);
+    color: rgb(255, 255, 255);
+  }
+  .titulo{
+    color: #161616;
+    font-size: 24px;
+    text-align: center;
+  }
+  .contenido{
+    color: #7B7B7B;
+    font-size: 20px;
+  }

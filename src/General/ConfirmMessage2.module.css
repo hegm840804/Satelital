@@ -1,0 +1,115 @@
+.alertSuccess {
+  background-color: #0b8b00;
+  border-radius: 10px;
+  color: white;
+  position: fixed;
+  top: 5%;
+  text-align: center;
+  display: flex;
+  z-index: 1100;
+}
+
+.cvv4VerificaPago {
+  left: 45%;
+}
+
+.paddingL5 {
+  left: 5%;
+}
+.paddingL10 {
+  left: 10%;
+}
+
+.paddingL15 {
+  left: 15%;
+}
+
+.paddingL20 {
+  left: 20%;
+}
+
+.paddingL25 {
+  left: 25%;
+}
+
+.paddingL30 {
+  left: 30%;
+}
+
+.paddingL35 {
+  left: 35%;
+}
+
+.paddingL40 {
+  left: 40%;
+}
+
+.paddingL45 {
+  left: 45%;
+}
+
+.paddingL50 {
+  left: 50%;
+}
+
+.alertError {
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  position: fixed;
+  top: 5%;
+  text-align: center;
+  display: flex;
+  z-index: 1100;
+}
+
+.alertContent {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 2560px) {
+  .cvv4VerificaPago {
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .cvv4VerificaPago {
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cvv4VerificaPago {
+    left: 35%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cvv4VerificaPago {
+    left: 35%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cvv4VerificaPago {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cvv4VerificaPago {
+    left: 17%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cvv4VerificaPago {
+    left: 5%;
+  }
+}

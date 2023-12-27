@@ -1,0 +1,611 @@
+.contenedorCabecera {
+  padding-left: 2vw;
+  padding-right: 7vw;
+}
+
+.spectrum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 40px;
+
+  /* Spectrum */
+
+  background-image: linear-gradient(90deg, #FF9E00 0%, #FF0000 33.93%, #B5007D 58.36%, #21429C 82.54%, #0071FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-top: 50px;
+}
+
+#lineaadicional {
+  width: 100%;
+  border: 0.937037px solid #A7A7A7;
+
+  border-radius: 10px;
+  padding: 2vw;
+
+}
+
+
+
+.contenedorCard {
+  padding-left: 1vw;
+  padding-right: 7vw;
+
+}
+
+.contenedor {
+  width: 100%;
+}
+
+
+
+.colorletra {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #6e6e6e;
+}
+
+.colorletra2 {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000fbe;
+  font-weight: bold;
+}
+
+.colorletra3 {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000fbe;
+  font-weight: bold;
+  float: right;
+}
+
+.colorletra4 {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #6e6e6e;
+}
+
+.colorletra5 {
+  font-family: "skyFontRegular";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000fbe;
+}
+
+.colorletra6 {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 40px;
+  color: #6e6e6e;
+  float: right;
+}
+
+.cuadro {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  justify-content: center;
+  align-items: center;
+  padding: 32px 16px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+
+}
+
+.textodatos {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: .97vw;
+
+  color: #6e6e6e;
+  text-align: center;
+
+}
+
+.textodatosgb {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  color: #6e6e6e;
+  margin-top: -25px;
+  text-align: center;
+  margin-bottom: 0.5vw;
+}
+
+.textodatosconsumidos {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.83vw;
+  line-height: 40px;
+  color: #6e6e6e;
+  text-align: center;
+  margin-top: -10px;
+
+}
+
+.barra {
+  background: linear-gradient(81.34deg, #FF00A5 7.59%, #FF0A50 53.2%, #FF6400 94.29%);
+  border-radius: 20px;
+  margin-top: -20px;
+}
+
+.alturacuadros {
+  margin-top: 30px;
+}
+
+.linea {
+  border: 1px solid #A7A7A7;
+
+}
+
+.tituloGeneral {
+  font-size: 2.5vw;
+  margin-bottom: 0px;
+}
+
+.subtituloGeneral {
+  font-size: 18px;
+  color: #6e6e6e;
+  margin-bottom: 2.5vw;
+}
+
+.resalte {
+  color: #000FBE;
+  font-weight: 500;
+  font-family: skyBold;
+}
+
+.titulo {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-size: 25px;
+  line-height: 40px;
+  color: #6e6e6e;
+  font-weight: bold;
+}
+
+.tituloTotal {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-size: 25px;
+  line-height: 40px;
+  color: #6e6e6e;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-family: "skyFontRegular";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #6e6e6e;
+  margin-top: -15px;
+
+}
+
+.total {
+  color: #6e6e6e;
+  text-align: right;
+}
+
+.bolsas {
+  font-size: 36px;
+  color: #6e6e6e;
+  text-align: center;
+}
+
+
+/*****************
+Inicia responsivo
+******************/
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .tituloGeneral {
+    font-size: 7.77vw;
+  }
+
+  .subtituloGeneral {
+    font-size: 3.88vw;
+    margin-bottom: 5vw;
+  }
+
+  .contenedorCabecera {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .contenedorCard {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .colorletra {
+    font-size: 6.66vw;
+    line-height: 3vw;
+  }
+
+  .colorletra4 {
+    font-size: 4.44vw;
+    padding-top: 0px;
+  }
+
+  .colorletra5 {
+    font-size: 5vw;
+
+  }
+
+  .colorletra3Small {
+    font-family: "skyFontRegular";
+    font-weight: 400;
+    font-size: 10vw;
+    line-height: 40px;
+    color: #000fbe;
+    font-weight: bold;
+
+  }
+
+  .colorletra6Small {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.44vw;
+    color: #6e6e6e;
+  }
+
+  #lineaadicional {
+    padding-left: 7vw;
+    padding-right: 7vw;
+
+  }
+
+  .cuadro {
+    margin-bottom: 3vw;
+  }
+
+  .textodatosgb {
+    font-size: 5.3vw;
+    margin-bottom: 0px;
+  }
+
+  .textodatosconsumidos {
+    font-size: 3.33vw;
+  }
+
+  .textodatos {
+    font-size: 3.88vw;
+  }
+
+  .titulo {
+    font-size: 5.3vw;
+    margin-bottom: 2vw;
+  }
+
+  .subtitulo {
+    font-size: 5.3vw;
+    line-height: 5vw;
+  }
+
+  .tituloTotal {
+    font-size: 5.3vw;
+    line-height: 5vw;
+  }
+}
+
+/*termina 360px*/
+
+@media (min-width: 361px) and (max-width: 375px) {
+  .tituloGeneral {
+    font-size: 7.77vw;
+  }
+
+  .subtituloGeneral {
+    font-size: 3.88vw;
+    margin-bottom: 5vw;
+  }
+
+  .contenedorCabecera {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .contenedorCard {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .colorletra {
+    font-size: 6.66vw;
+    line-height: 3vw;
+  }
+
+  .colorletra4 {
+    font-size: 4.44vw;
+    padding-top: 0px;
+  }
+
+  .colorletra5 {
+    font-size: 5vw;
+
+  }
+
+  .colorletra3Small {
+    font-family: "skyFontRegular";
+    font-weight: 400;
+    font-size: 10vw;
+    line-height: 40px;
+    color: #000fbe;
+    font-weight: bold;
+
+  }
+
+  .colorletra6Small {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.44vw;
+    color: #6e6e6e;
+  }
+
+  #lineaadicional {
+    padding-left: 7vw;
+    padding-right: 7vw;
+
+  }
+
+  .cuadro {
+    margin-bottom: 3vw;
+  }
+
+  .textodatosgb {
+    font-size: 5.3vw;
+    margin-bottom: 0px;
+  }
+
+  .textodatosconsumidos {
+    font-size: 3.33vw;
+  }
+
+  .textodatos {
+    font-size: 3.88vw;
+  }
+
+  .titulo {
+    font-size: 5.3vw;
+    margin-bottom: 2vw;
+  }
+
+  .subtitulo {
+    font-size: 5.3vw;
+    line-height: 5vw;
+  }
+
+  .tituloTotal {
+    font-size: 5.3vw;
+    line-height: 5vw;
+  }
+}
+
+/*termina 375px*/
+
+
+@media (min-width: 337px) and (max-width: 360px) {
+  .tituloGeneral {
+    font-size: 7.77vw;
+  }
+
+  .subtituloGeneral {
+    font-size: 16px;
+    margin-bottom: 5vw;
+    line-height: 20px;
+    width: 80%;
+  }
+
+  .contenedorCabecera {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .contenedorCard {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .colorletra {
+    font-size: 6.66vw;
+    line-height: 3vw;
+  }
+
+  .colorletra4 {
+    font-size: 4.44vw;
+    padding-top: 0px;
+  }
+
+  .colorletra5 {
+    font-size: 5vw;
+
+  }
+
+  .colorletra3Small {
+    font-family: "skyFontRegular";
+    font-weight: 400;
+    font-size: 10vw;
+    line-height: 40px;
+    color: #000fbe;
+    font-weight: bold;
+
+  }
+
+  .colorletra6Small {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.44vw;
+    color: #6e6e6e;
+  }
+
+  #lineaadicional {
+    padding-left: 7vw;
+    padding-right: 7vw;
+
+  }
+
+  .cuadro {
+    margin-bottom: 3vw;
+  }
+
+  .textodatosgb {
+    font-size: 5.3vw;
+    margin-bottom: 0px;
+  }
+
+  .textodatosconsumidos {
+    font-size: 3.33vw;
+  }
+
+  .textodatos {
+    font-size: 3.88vw;
+  }
+
+  .titulo {
+    font-size: 5.3vw;
+    margin-bottom: 2vw;
+  }
+
+  .subtitulo {
+    font-size: 5.3vw;
+    line-height: 5vw;
+  }
+
+  .tituloTotal {
+    font-size: 5.3vw;
+    line-height: 5vw;
+  }
+
+  .spectrum {
+    font-size: 28px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .bolsas {
+    font-size: 24px;
+  }
+}
+
+/*termina 360px*/
+
+@media (min-width: 319px) and (max-width: 336px) {
+  .tituloGeneral {
+    font-size: 7.77vw;
+  }
+
+  .subtituloGeneral {
+    font-size: 3.88vw;
+    margin-bottom: 5vw;
+  }
+
+  .contenedorCabecera {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .contenedorCard {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .colorletra {
+    font-size: 6.66vw;
+    line-height: 3vw;
+  }
+
+  .colorletra4 {
+    font-size: 4.44vw;
+    padding-top: 0px;
+  }
+
+  .colorletra5 {
+    font-size: 5vw;
+
+  }
+
+  .colorletra3Small {
+    font-family: "skyFontRegular";
+    font-weight: 400;
+    font-size: 10vw;
+    line-height: 40px;
+    color: #000fbe;
+    font-weight: bold;
+
+  }
+
+  .colorletra6Small {
+    font-family: "skyFontRegular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.44vw;
+    color: #6e6e6e;
+  }
+
+  #lineaadicional {
+    padding-left: 7vw;
+    padding-right: 7vw;
+
+  }
+
+  .cuadro {
+    margin-bottom: 3vw;
+  }
+
+  .textodatosgb {
+    font-size: 5.3vw;
+    margin-bottom: 0px;
+  }
+
+  .textodatosconsumidos {
+    font-size: 3.33vw;
+  }
+
+  .textodatos {
+    font-size: 3.88vw;
+  }
+
+  .titulo {
+    font-size: 5.3vw;
+    margin-bottom: 2vw;
+  }
+
+  .subtitulo {
+    font-size: 5.3vw;
+    line-height: 5vw;
+  }
+
+  .tituloTotal {
+    font-size: 5.3vw;
+    line-height: 5vw;
+  }
+}
