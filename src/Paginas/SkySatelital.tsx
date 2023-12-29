@@ -1,0 +1,7 @@
+const SkySatelital = () => {
+
+    return (
+        <>
+        </>
+    )
+}
