@@ -323,7 +323,8 @@ export const BarraMenu = () => {
               >
                 Celular
               </Sidebar.MenuItem>
-            ))}
+            ) 
+            )}
 
             {
             pais === "MEX" &&
@@ -358,6 +359,17 @@ export const BarraMenu = () => {
               {" "}
               Preguntas frecuentes
             </Sidebar.MenuItem>
+            
+             
+              <Sidebar.MenuItem
+                className={styles["menu"]}
+                href="/guiapro"
+                icon={<Image src={mobile} />}
+              >
+                {" "}
+                Guia
+              </Sidebar.MenuItem>
+            
           </Sidebar.Menu>
           <div className={styles["comunicateContainer"]}>
             <div className={styles.dudasText}>¿Tienes dudas?</div>

@@ -36,6 +36,7 @@ import SkyInternetCliente from "./Paginas/SkyInternetCliente";
 import FAQ from "./Paginas/FAQ";
 import SkyPlusNoCliente from "./Paginas/SkyPlusNoCliente";
 import { Celular } from "./Paginas/Celular";
+
 import { ContextFlujosProvider } from "./Context/ContextFlujos";
 import NochesFinesSemana from "./SkyCelular/SkyCelularMejoraPlan/NochesFinesSemana";
 import ConoceSkyPlus from "./SkyPlus/ConoceSkyPlus";
@@ -102,6 +103,7 @@ const Routing = () => {
                   </Private>
                 }
               />
+              
               <Route
                 path="/cartelera"
                 element={
@@ -186,6 +188,7 @@ const Routing = () => {
                   </Private>
                 }
               />
+              
               <Route
                 path="/chat"
                 element={
