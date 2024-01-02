@@ -112,6 +112,15 @@ const Routing = () => {
               />
 
               <Route
+                path="/skysatelital"
+                element={
+                  <Private>
+                    <Cartelera />
+                  </Private>
+                }
+              />
+
+              <Route
                 path="/pagoporevento"
                 element={
                   <Private>

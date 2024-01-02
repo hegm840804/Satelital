@@ -4,8 +4,7 @@ import ContextFlujos from "../Context/ContextFlujos";
 
 const SkySatelital = () => {
 
-    const {setSkyPlus, setSkyCelular, setPais} = useContext(ContextFlujos) as any;
-
+  const {setSkyPlus, setSkyCelular, setPais} = useContext(ContextFlujos) as any;
   useEffect(() => {
     if (sessionStorage.getItem("flujos") === "Sky+") {
         setSkyPlus({estado:false});
@@ -19,7 +18,7 @@ const SkySatelital = () => {
       }
 
 
-  }, []);
+    }, []);
 
     return (
         <>

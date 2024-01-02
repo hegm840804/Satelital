@@ -267,11 +267,26 @@ export const BarraMenu = () => {
             ) : (
               <></>
             )}
+
+{skyPlus.estado === true ? (
+              <Sidebar.MenuItem
+                className={styles["menu"]}
+                href="/SkySatelital"
+                icon={<FaRegFileVideo />}                
+              >
+                {" "}
+                Sky Satelital
+              </Sidebar.MenuItem>
+            ) : (
+              <></>
+            )}
+
+
             {skyPlus.estado === true ? (
               <Sidebar.MenuItem
                 className={styles["menu"]}
                 href="/cartelera"
-                icon={<FaRegFileVideo />}
+                icon={<FaRegFileVideo />}                
               >
                 {" "}
                 Más contenido
@@ -279,7 +294,7 @@ export const BarraMenu = () => {
             ) : (
               <></>
             )}
-
+       
             {
             pais === "MEX" &&
             (skyCelular.estado === true ? (
