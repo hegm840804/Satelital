@@ -271,7 +271,7 @@ export const BarraMenu = () => {
 {skyPlus.estado === true ? (
               <Sidebar.MenuItem
                 className={styles["menu"]}
-                href="/SkySatelital"
+                href="/Satelital"
                 icon={<FaRegFileVideo />}                
               >
                 {" "}

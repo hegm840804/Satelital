@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from "react";
 import ContextFlujos from "../Context/ContextFlujos";
+import styles from "../Satelital/GuiaDeProgramacion.module.css";
 
-
-const SkySatelital = () => {
+const Satelital = () => {
 
   const {setSkyPlus, setSkyCelular, setPais} = useContext(ContextFlujos) as any;
   useEffect(() => {
@@ -22,10 +22,10 @@ const SkySatelital = () => {
 
     return (
         <>
-        <h3>Guía de Programación</h3>
+        <h3 className ={styles.spectrum}>Guía de Programación</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam tempora dolor aspernatur quia eius ex aut harum explicabo dolorem at!</p>
         </>
     )
 }
 
-export default SkySatelital;
+export default Satelital;

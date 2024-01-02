@@ -36,6 +36,7 @@ import SkyInternetCliente from "./Paginas/SkyInternetCliente";
 import FAQ from "./Paginas/FAQ";
 import SkyPlusNoCliente from "./Paginas/SkyPlusNoCliente";
 import { Celular } from "./Paginas/Celular";
+import Satelital from "./Paginas/Satelital";
 
 import { ContextFlujosProvider } from "./Context/ContextFlujos";
 import NochesFinesSemana from "./SkyCelular/SkyCelularMejoraPlan/NochesFinesSemana";
@@ -114,10 +115,10 @@ const Routing = () => {
               />
 
               <Route
-                path="/skysatelital"
+                path="/Satelital"
                 element={
                   <Private>
-                    <Cartelera />
+                    <Satelital />
                   </Private>
                 }
               />
