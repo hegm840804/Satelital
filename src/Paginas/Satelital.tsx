@@ -1,6 +1,8 @@
 import { useContext, useEffect, useState } from "react";
 import ContextFlujos from "../Context/ContextFlujos";
 import styles from "../Satelital/GuiaDeProgramacion.module.css";
+import { Container } from "react-bootstrap";
+
 
 const Satelital = () => {
 
@@ -22,8 +24,10 @@ const Satelital = () => {
 
     return (
         <>
-        <h3 className ={styles.spectrum}>Guía de Programación</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam tempora dolor aspernatur quia eius ex aut harum explicabo dolorem at!</p>
+        <Container className = {styles.container}>
+          <h3 className ={styles.spectrum}>Guía de Programación</h3>
+          <p>Revisa desde aquí toda tu programación disponible, ¡Puedes grabarlos desde aquí!</p>
+          </Container>
         </>
     )
 }
